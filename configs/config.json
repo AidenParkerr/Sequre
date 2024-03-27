@@ -1,0 +1,14 @@
+{
+  "data_config": {
+    "dataset_path": "data/raw/dataset",
+    "train": "data/train.txt",
+    "valid": "data/valid.txt",
+    "names": "data/names.txt"
+    
+  },
+
+  "model_config": {
+    "model_path": "models/yolov8s.pt",
+    "is_trainable": false
+  }
+}
