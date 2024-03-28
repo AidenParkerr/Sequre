@@ -4,10 +4,24 @@ import json
 class ConfigReader:
   """
   The ConfigReader class reads the configuration file and extracts the required information from it. The
-  configuration file is a JSON file containing data ranging from the paths to the video, model, 
+  configuration file is a JSON file containing data ranging from the paths to the video, model,
   and region of interest points numpy file.
   
+  Attributes
+  ----------
+  config_path : str
+    The path to the configuration file.
+  config : dict[str, dict]
+    The contents of the configuration file.
+    
+  Methods
+  -------
+  _read_config() -> dict[str, dict]
+    Read the configuration file and return the contents as a dictionary.
+  get(key: str) -> dict
+    Return the value of the key from the configuration file.
   """
+
   def __init__(self, config_path: str) -> None:
     self.config_path = config_path
     self.config: dict[str, dict] = self._read_config()
@@ -15,12 +29,12 @@ class ConfigReader:
   def _read_config(self) -> dict[str, dict]:
     """
     Read the configuration file and return the contents as a dictionary.
-    
+
     Returns
     -------
     dict[str, dict]
       The contents of the configuration file.
-        
+
     Raises
     ------
     FileNotFoundError
@@ -46,16 +60,16 @@ class ConfigReader:
   def get(self, key: str) -> dict:
     """
     Return the value of the key from the configuration file.
-    
-    The base structure of the configuration file is a dictionary containing keys for each 
+
+    The base structure of the configuration file is a dictionary containing keys for each
     configuration section, such as `data_config`, or `video_config`. The value of each key
     is another dictionary containing the configuration values for that section.
-    
+
     Parameters
     ----------
     key : str
       The key to extract from the configuration file.
-      
+
     Returns
     -------
     dict

@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 import cv2
 import numpy as np
@@ -16,9 +17,32 @@ class DataHandler:
     The desired dimensions of the video frames.
   """
 
-  def __init__(self, video_path: str, video_dim: tuple[int, int]):
-    self.video_path: str = video_path
-    self.video_dim: tuple = video_dim
+  def __init__(self, video_config: dict):
+    self.video_path, self.video_dim = self._init_video_config(video_config)
+
+  def _init_video_config(
+          self, video_config: dict[str, str]) -> tuple[str, tuple[int, int]]:
+    """
+    Initialise the video data.
+
+    This function initialises the video data by extracting the video path, video dimensions,
+    and region of interest points from the configuration file. If the region of interest points
+    file is not available, an empty numpy array is returned, this will prompt the user to select
+    the region of interest points manually.
+
+    Args:
+        video_config (dict[str, str]): The video configuration dictionary.
+
+    Returns:
+        tuple[str, tuple[int, int]]: A tuple containing the video path
+        and video dimensions.
+    """
+    video_path: str = video_config['video_path']
+    # parse the video dimensions from the config file
+    raw_video_dims: str = video_config.get('video_dimensions', '1280x720')
+    width, height = (int(dim) for dim in raw_video_dims.split('x'))
+    video_dims: tuple[int, int] = (width, height)
+    return video_path, video_dims
 
   def get_capture_fps(self, capture: cv2.VideoCapture) -> int:
     """

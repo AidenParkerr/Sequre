@@ -11,29 +11,30 @@ from utils.roi_initialiser import ROIInitialiser
 from utils.visualise import display, draw_grid, retrieve_cropped_box
 from yolo.detector import YOLODetector
 
-FOLDER_TIMESTAMP = datetime.now().strftime("%Y-%m-%d")
-output_path = Path('data/output/').joinpath(FOLDER_TIMESTAMP)
-output_path.mkdir(exist_ok=True)
-OUTPUT_DIR = output_path.resolve()
 
 class Sequre:
   def __init__(self, config_path: str):
-    self.video_path, \
-        self.video_dims, \
+    self.video_config, \
         self.model_path, \
         self.roi_points = self._init_dependencies(config_path)
-    self.detector = YOLODetector(self.model_path)
-    self.data_handler = DataHandler(self.video_path, self.video_dims)
+    self.video_name = Path(self.video_config['video_path']).stem
+    self.data_handler = DataHandler(self.video_config)
+
+    FOLDER_TIMESTAMP = datetime.now().strftime("%Y-%m-%d")
+    output_path = Path(
+        'data/output/').joinpath(FOLDER_TIMESTAMP, self.video_name)
+    output_path.mkdir(parents=True, exist_ok=True)
+    self.output_dir = output_path.resolve()
 
   def _init_dependencies(
-          self, config_path) -> tuple[str, tuple[int, int], str, np.ndarray]:
+          self, config_path) -> tuple[dict, str, np.ndarray]:
     """
     Initialise the dependencies for the application.
-    
+
     Handle the initialisation of the dependencies for the application. This function reads the
     configuration file, extracts the video path, video dimensions, model path, and region of interest
     points from the configuration file.
-  
+
     Parameters
     ----------
     config_path : str
@@ -41,30 +42,28 @@ class Sequre:
 
     Returns
     -------
-    tuple[str, tuple[int, int], str, np.ndarray]
-        The video path, video dimensions, model path, and region of interest points.
+    tuple[dict, str, np.ndarray]sample_video
+        A tuple containing the video configuration, sample_videomodel path, and region of interest points.
+
     """
     config_reader = ConfigReader(config_path)
-    video_path: str = config_reader.get('video_config')['video_path']
-    
-    # parse the video dimensions from the config file
-    raw_video_dims: str = config_reader.get('video_config')['video_dimensions']
-    width, height = (int(dim) for dim in raw_video_dims.split('x'))
-    video_dims: tuple[int, int] = (width, height)
-    
-    # load the region of interest points from the config file, if available
-    roi_points_path = config_reader.get('video_config').get(
-        'roi_points', 'data/roi_points.npy')
+    video_config = config_reader.get('video_config')
+
+    # load the roi points for the selected video file from the config file, if
+    # available
+    roi_points_dir = video_config['roi_points_dir']
+    roi_points_path = Path(roi_points_dir).joinpath(
+        f"{Path(video_config['video_path']).stem}_roi_points.npy")
     roi_points = np.load(roi_points_path) if Path(
         roi_points_path).exists() else np.array([], dtype=np.int32)
-    
     model_path: str = config_reader.get('model_config')['model_path']
-    return video_path, video_dims, model_path, roi_points
+    return video_config, model_path, roi_points
 
-  def handle_object_in_roi(self, frame, box_class):
+  def handle_object_in_roi(self, frame, object_class,
+                           classes_to_monitor=['person', 'car']):
     """
     Handle the object inside the region of interest.
-    
+
     This function saves the frame to the output directory if the object is inside the region of interest.
 
     Parameters
@@ -74,7 +73,7 @@ class Sequre:
     box_class : str
         The class of the object.
     """
-    if box_class not in ['person', 'car']:
+    if object_class not in classes_to_monitor:
       return
 
     def save_frame():
@@ -82,9 +81,11 @@ class Sequre:
       Save the frame to the output directory.
       """
       timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-      save_path = (OUTPUT_DIR / f"{box_class}-{timestamp}.jpg").as_posix()
+      save_path = (
+          self.output_dir /
+          f"{object_class}-{timestamp}.jpg").as_posix()
       cv2.imwrite(save_path, frame)
-      
+
     # Handle the saving of the frame in a separate thread
     threading.Thread(target=save_frame).start()
 
@@ -92,7 +93,7 @@ class Sequre:
                           bottom: int) -> tuple[np.ndarray, np.ndarray]:
     """
     Compute the grid coordinates inside the bounding box.
-    
+
     This function computes the grid coordinates inside the bounding box by creating a meshgrid
     of points inside the bounding box.
     The grid points are created using the `np.linspace` function to create 10x10 points inside the
@@ -120,24 +121,25 @@ class Sequre:
             top, bottom, num=10))
     return grid_x, grid_y
 
-  def is_object_in_roi(self, box_coords, roi_points, percentage_threshold=0.3):
+  def is_object_in_roi(self, box_coords: np.ndarray, roi_points: np.ndarray,
+                       percentage_threshold: float=0.25):
     """
     Check if the object is inside the region of interest.
 
     This function checks if the object is inside the region of interest by creating
     a grid of points inside the bounding box and checking if the points are inside the
-    polygon to some threshold. The threshold is set to 50% by default.
+    polygon to some threshold. The threshold is set to 25% by default.
 
     `grid_x` and `grid_y` are the grid points inside the bounding box.
     grid_points is a transpose of the grid points, this is done to change the shape of
     the array from (2, 100) to (100, 2). This allows us to iterate over each point in the grid.
-
+stairwell
     Parameters
     ----------
         box_coords (list): The bounding box coordinates of the object.
-        roi_points (list): The region of interest points.
+        roi_points (list): The region of interest pooffice_robbersints.
         percentage_threshold (float, optional): The threshold for the percentage of points inside the polygon.
-        Defaults to 0.3 (30%).
+        Defaults to 0.25 (25%).
 
     Returns
     -------
@@ -167,7 +169,7 @@ class Sequre:
   def init_roi(self, capture: cv2.VideoCapture) -> np.ndarray:
     """
     Initialise the region of interest.
-    
+
     This function initialises the region of interest by setting the ROI points using the ROIInitialiser
     class. The ROI points are set by selecting the points on the frame using the mouse.
 
@@ -181,7 +183,9 @@ class Sequre:
     np.ndarray
       The region of interest points.
     """
-    roi_initialiser = ROIInitialiser(roi_points=self.roi_points)
+    roi_initialiser = ROIInitialiser(
+        video_name=self.video_name,
+        roi_points=self.roi_points)
 
     success, frame = capture.read()
     if not success:
@@ -197,8 +201,10 @@ class Sequre:
   # Main entry point of the application
   def main(self, debug=False):
     # Open the video file and return the capture object
+    detector = YOLODetector(self.model_path)
     capture = self.data_handler.get_capture()
-    model_classes = self.detector.model.names
+    model_classes = detector.model.names
+
     if not len(self.roi_points) > 0:
       self.roi_points = self.init_roi(capture)
 
@@ -209,25 +215,34 @@ class Sequre:
 
       frame = self.data_handler.process_frame(frame)  # Process the frame
 
-      if debug:
-        # Draw the region of interest on the frame and grid lines
-        cv2.polylines(frame, [self.roi_points], isClosed=True, color=(0, 255, 0), thickness=2)
+      results = detector.detect(frame)  # Detect objects
 
-      results = self.detector.detect(frame)  # Detect objects
-
-      # Loop through the detected objects and check if they are inside the region of interest
+      # Loop through the detected objects and check if they are inside the
+      # region of interest
       for box in results[0].boxes:
         box_class = model_classes[int(box.cls)]  # Get the class of the object
-        box_coords = box.xyxy.cpu().squeeze()
-        # cropped_frame = retrieve_cropped_box(frame, box_coords, box_class, desired_class='person')
-        if self.is_object_in_roi(box_coords, self.roi_points) and len(self.roi_points) > 0:
-          self.handle_object_in_roi(results[0].plot(), box_class)
-
+        box_coords = box.xyxy.cpu().squeeze()  # Get the bounding box coordinates
         if debug:
           draw_grid(frame, *self.compute_grid_coords(*box_coords), box_coords)
+        # cropped_frame = retrieve_cropped_box(frame, box_coords, box_class, desired_class='person')
+        if self.is_object_in_roi(box_coords, self.roi_points) and len(
+                self.roi_points) > 0:
+          self.handle_object_in_roi(frame, 
+                                    object_class=box_class, 
+                                    classes_to_monitor=[
+                                      'person',
+                                      'car'])
 
+      if debug:
+        # Draw the region of interest on the frame and display the frame with
+        # bounding boxes
+        frame = results[0].plot()
+        cv2.polylines(
+            frame, [
+                self.roi_points], isClosed=True, color=(
+                0, 255, 0), thickness=2)
 
-      if not display(results[0].plot()):
+      if not display(frame):
         break
 
     capture.release()

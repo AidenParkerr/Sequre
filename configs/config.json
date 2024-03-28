@@ -1,5 +1,5 @@
 {
-  "data_config": {
+  "dataset_config": {
     "dataset_path": "data/raw/dataset",
     "train": "data/train.txt",
     "valid": "data/valid.txt",
@@ -8,11 +8,9 @@
   },
 
   "video_config": {
-    "video_path": "data/raw/sample_video.mp4",
+    "video_path": "data/raw/office_robbers.mp4",
     "video_dimensions": "1280x720",
-    "video_output_dir": "data/output/video",
-    "video_output_format": "mp4",
-    "roi_points_path": "data/roi_points.npy"
+    "roi_points_dir": "data/output/roi_points"
   },
 
   "model_config": {
