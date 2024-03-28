@@ -2,15 +2,16 @@ import cv2
 import numpy as np
 
 
-def display(frame: np.ndarray, window_name: str='frame', ms_wait: int=10) -> bool:
+def display(frame: np.ndarray, window_name: str = 'frame',
+            ms_wait: int = 10) -> bool:
   """
   Display the frame in a window.
-  
+
   Display the frame in a window with the name `window_name`. The function waits for a key press
   for 10 milliseconds and checks if the window is closed. If the window is closed or the key 'q' is
   pressed, the function returns False, otherwise it returns True.
 
-  Parameters  
+  Parameters
   ----------
   frame : np.ndarray
     The frame to display.
@@ -32,14 +33,14 @@ def display(frame: np.ndarray, window_name: str='frame', ms_wait: int=10) -> boo
 
 
 def draw_grid(frame: np.ndarray, grid_x: np.ndarray, grid_y: np.ndarray,
-              box_coords: np.ndarray, num_segments: int=10) -> None:
+              box_coords: np.ndarray, num_segments: int = 10) -> None:
   """
   Draw the grid on the frame.
-  
+
   The x and y coordinates of the grid passed as `grid_x` and `grid_y` are used to draw the grid
   on the frame. The bounding box coordinates are used to draw the grid inside the bounding box
   container.
-  
+
 
   Parameters
   ----------
@@ -51,7 +52,7 @@ def draw_grid(frame: np.ndarray, grid_x: np.ndarray, grid_y: np.ndarray,
     The grid y coordinates.
   box_coords : np.ndarray
     The bounding box coordinates.
-    
+
   """
   left, top, right, bottom = np.array(box_coords, dtype=np.int32).squeeze()
   for i in range(num_segments):
@@ -66,10 +67,10 @@ def draw_grid(frame: np.ndarray, grid_x: np.ndarray, grid_y: np.ndarray,
 
 
 def retrieve_cropped_box(frame: np.ndarray, box_coords: np.ndarray, box_class: str,
-                         desired_class: str='person') -> np.ndarray:
+                         desired_class: str = 'person') -> np.ndarray:
   """
   Retrieve the cropped box from the frame.
-  
+
   Retrieve the cropped box from the frame using the bounding box coordinates. The bounding box
   coordinates are used to crop the frame and return the cropped box. The function checks if the
   class of the object is the desired class, if not, it returns an empty array.
@@ -84,7 +85,7 @@ def retrieve_cropped_box(frame: np.ndarray, box_coords: np.ndarray, box_class: s
     The class of the bounding box.
   desired_class : str, optional
     The desired class of the bounding box, by default 'person'.
-    
+
   Returns
   -------
   np.ndarray

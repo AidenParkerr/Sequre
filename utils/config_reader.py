@@ -6,14 +6,14 @@ class ConfigReader:
   The ConfigReader class reads the configuration file and extracts the required information from it. The
   configuration file is a JSON file containing data ranging from the paths to the video, model,
   and region of interest points numpy file.
-  
+
   Attributes
   ----------
   config_path : str
     The path to the configuration file.
   config : dict[str, dict]
     The contents of the configuration file.
-    
+
   Methods
   -------
   _read_config() -> dict[str, dict]

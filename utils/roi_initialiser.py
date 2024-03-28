@@ -7,18 +7,18 @@ import numpy as np
 class ROIInitialiser:
   """
   A class to initialise the region of interest in a video.
-  
+
   The ROIInitialiser class provides a way to select the region of interest in a video.
   The user can select the region of interest by clicking on the frame to select the
-  points that define the region of interest. 
+  points that define the region of interest.
   The user can also clear the points by clicking the right mouse button and finish selecting
   the points by clicking the middle mouse button.
-  
+
   The ROI points are saved to a numpy file for future use. The ROI points can be loaded from the
   numpy file to avoid selecting the points again.
   The ROI points are saved to the file with the name of the video file appended with '_roi_points.npy'.
   Example: `footage1_roi_points.npy`.
-  
+
   The ROI points are saved to the in the following format:
     ```
     [[x1, y1],
@@ -27,14 +27,14 @@ class ROIInitialiser:
        ...
      [xn, yn]]
     ```
-      
+
   Parameters
   ----------
   video_name : str
     The name of the video file.
   roi_points : np.ndarray
     The region of interest points.
-    
+
   Attributes
   ----------
   video_name : str
@@ -47,7 +47,7 @@ class ROIInitialiser:
     The current point selected by the user.
   temp_points : list
     A list to store the temporary points selected by the user.
-    
+
   Methods
   -------
   _save_roi_points(save_path: str) -> None
@@ -61,6 +61,7 @@ class ROIInitialiser:
   set_roi(frame, window_name='Define Region of Interest') -> np.ndarray
     Set the region of interest in a frame.
   """
+
   def __init__(self, video_name: str, roi_points: np.ndarray) -> None:
     self.video_name: str = video_name
     self.roi_points = np.array(
@@ -175,8 +176,8 @@ class ROIInitialiser:
     The user can also clear the points by clicking the right mouse button and finish selecting
     the points by clicking the middle mouse button. The ROI points are saved to a numpy file
     for future use.
-    
-        
+
+
     Parameters
     ----------
     frame : np.ndarray
