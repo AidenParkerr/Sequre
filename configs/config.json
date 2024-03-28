@@ -7,6 +7,14 @@
     
   },
 
+  "video_config": {
+    "video_path": "data/raw/sample_video.mp4",
+    "video_dimensions": "1280x720",
+    "video_output_dir": "data/output/video",
+    "video_output_format": "mp4",
+    "roi_points_path": "data/roi_points.npy"
+  },
+
   "model_config": {
     "model_path": "models/yolov8s.pt",
     "is_trainable": false
