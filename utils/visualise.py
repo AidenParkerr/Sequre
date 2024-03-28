@@ -3,7 +3,7 @@ import numpy as np
 
 
 def display(frame: np.ndarray, window_name: str = 'frame',
-            ms_wait: int = 10) -> bool:
+            delay: int = 10) -> bool:
   """
   Display the frame in a window.
 
@@ -26,7 +26,7 @@ def display(frame: np.ndarray, window_name: str = 'frame',
     True if the window is open, False otherwise.
   """
   cv2.imshow(window_name, frame)
-  if cv2.waitKey(ms_wait) & 0xFF == ord('q') or cv2.getWindowProperty(
+  if cv2.waitKey(delay) & 0xFF == ord('q') or cv2.getWindowProperty(
           window_name, cv2.WND_PROP_VISIBLE) < 1:
     return False
   return True

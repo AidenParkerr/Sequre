@@ -1,9 +1,7 @@
-import os
-from pathlib import Path
-
 import cv2
 import numpy as np
 
+from pathlib import Path
 
 class DataHandler:
   """
@@ -74,8 +72,7 @@ class DataHandler:
     cv2.VideoCapture
       The video capture object.
     """
-    if not os.path.exists(self.video_path):
-      raise ValueError("Video file does not exist")
+    # if not os.path.exists(self.video_path):>
 
     capture = cv2.VideoCapture(self.video_path)
     if not capture.isOpened():

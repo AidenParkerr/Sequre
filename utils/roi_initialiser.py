@@ -162,7 +162,7 @@ class ROIInitialiser:
         cv2.imshow(window_name, updated_frame)
       else:
         cv2.imshow(window_name, frame)
-      if cv2.waitKey(10) & 0xFF == ord('q') or cv2.getWindowProperty(
+      if cv2.waitKey(1) & 0xFF == ord('q') or cv2.getWindowProperty(
               window_name, cv2.WND_PROP_VISIBLE) < 1:
         break
 
