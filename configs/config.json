@@ -8,9 +8,9 @@
   },
 
   "video_config": {
-    "video_path": "data/raw/sample_video.mp4",
+    "video_path": "data/raw/pops_driveway.mp4",
     "free_rtsp_channels": "https://g33ktricks.blogspot.com/p/the-rtsp-real-time-streaming-protocol.html",
-    "video_dimensions": "1280x720",
+    "video_dimensions": "640x480",
     "roi_points_dir": "data/output/roi_points"
   },
 

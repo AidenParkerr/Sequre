@@ -17,6 +17,40 @@ from yolo.detector import YOLODetector
 
 
 class Sequre:
+  """
+  The main application class for the object detection application.
+  
+  This application allows the user to detect objects in a video file and save the frames
+  containing the objects inside the region of interest. The region of interest is defined by the
+  user by selecting the points on the frame using the mouse. The application uses the YOLO object
+  detector to detect objects in the video file.
+  
+  Parameters
+  ----------
+  config_path : str
+    The path to the configuration file.
+    
+  Attributes
+  ----------
+  video_config : dict
+    The video configuration settings.
+  model_path : str
+    The path to the model file.
+  data_handler : DataHandler
+    The data handler object for the application.
+  video_path_hash : str
+    The hash of the video path.
+  output_dir : Path
+    The output directory for the application.
+  logger : logging.Logger
+    The logger object for the application.   
+    
+  #? TODO: 
+  - Add advanced frame handling for laggier videos and live streams.
+  - Add support for multiple video files.
+  - Add support for multiple region of interest points.
+  - Add support for multiple object classes to monitor. #* Done
+  """
   def __init__(self, config_path: str):
     setup_logging()
     self.logger = logging.getLogger('ObjectDetectionLogger')
@@ -140,7 +174,7 @@ class Sequre:
     return grid_x, grid_y
 
   def is_object_in_roi(self, box_coords: np.ndarray, roi_points: np.ndarray,
-                       percentage_threshold: float = 0.10):
+                       percentage_threshold: float = 0.25):
     """
     Check if the object is inside the region of interest.
 
@@ -243,6 +277,15 @@ stairwell
       frame = self.data_handler.process_frame(frame)  # Process the frame
 
       results = detector.detect(frame)  # Detect objects
+      if debug:
+        # Draw the region of interest on the frame and display the frame with
+        # bounding boxes
+        frame = results[0].plot()
+        cv2.polylines(
+            frame, [
+                roi_points], isClosed=True, color=(
+                0, 255, 0), thickness=2)
+        
       # Loop through the detected objects and check if they are inside the
       # region of interest
       for box in results[0].boxes:
@@ -265,16 +308,7 @@ stairwell
                                         'person',
                                         'car'])
 
-      if debug:
-        # Draw the region of interest on the frame and display the frame with
-        # bounding boxes
-        frame = results[0].plot()
-        cv2.polylines(
-            frame, [
-                roi_points], isClosed=True, color=(
-                0, 255, 0), thickness=2)
-
-      if not display(frame):
+      if not display(frame, delay=30):
         self.logger.info("Exiting the video processing..")
         break
 

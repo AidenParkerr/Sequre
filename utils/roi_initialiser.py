@@ -115,7 +115,7 @@ class ROIInitialiser:
       return
 
     if event == cv2.EVENT_MOUSEMOVE:
-      # On mouse move, update the current point
+      # On mouse move, update the current point      
       self.current = (x, y)
     elif event == cv2.EVENT_LBUTTONDOWN:
       # On left mouse button click, add the point to the ROI points
@@ -126,6 +126,9 @@ class ROIInitialiser:
       if len(self.temp_points) > 3:
         self.done = True
         self.roi_points = np.array(self.temp_points, dtype=np.int32)
+        # Save the ROI points to a file
+        save_path = f'data/output/roi_points/{self.video_name}_roi_points.npy'
+        self._save_roi_points(save_path)
     elif event == cv2.EVENT_RBUTTONDOWN:
       # On right mouse button click, clear the ROI points
       self.temp_points = []
@@ -191,13 +194,6 @@ class ROIInitialiser:
       The region of interest points.
     """
     cv2.namedWindow(window_name)
-    cv2.putText(frame, "Choose the area to monitor for intrusions. \
-                        - Left click to place a point \
-                        - Right click to clear points \
-                        - Middle mouse button to finish.",
-                (20, 20),
-                cv2.FONT_HERSHEY_SIMPLEX,
-                1, (0, 0, 0), 2)
 
     if len(self.roi_points) > 0:
       # If ROI points are provided, display them on the frame
@@ -207,9 +203,5 @@ class ROIInitialiser:
     cv2.setMouseCallback(window_name, self.handle_mouse_events, params)
     self._handle_roi_setup(frame, window_name, params)
     cv2.destroyWindow(window_name)
-
-    # Save the ROI points to a file
-    save_path = f'data/output/roi_points/{self.video_name}_roi_points.npy'
-    self._save_roi_points(save_path)
-
+    
     return np.array(self.roi_points, dtype=np.int32)

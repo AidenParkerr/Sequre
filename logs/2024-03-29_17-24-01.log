@@ -1,0 +1,810 @@
+2024-03-29 17:24:01,798 - ObjectDetectionLogger - INFO - Initialising the application
+2024-03-29 17:24:01,798 - ObjectDetectionLogger - INFO - Output directory: '/home/aiden/Desktop/Github Repos/Sequre/data/output/2024-03-29/832db30e9c740df46284f9d4ff2b6a030031a1754785cc9c7f1ad1fe0f18ffdb'
+2024-03-29 17:24:02,022 - ObjectDetectionLogger - INFO - Opening the video file..
+2024-03-29 17:24:02,081 - ObjectDetectionLogger - INFO - Region of interest points loaded successfully. Num points: 5
+2024-03-29 17:24:03,475 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.94
+2024-03-29 17:24:03,475 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,475 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:03,476 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.48
+2024-03-29 17:24:03,476 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,476 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:03,476 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.25
+2024-03-29 17:24:03,476 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,476 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:03,821 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:03,821 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,822 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:03,822 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.63
+2024-03-29 17:24:03,822 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,822 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:03,822 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.25
+2024-03-29 17:24:03,822 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,823 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:03,972 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:03,972 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,972 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:03,972 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.68
+2024-03-29 17:24:03,973 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,973 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:03,973 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.25
+2024-03-29 17:24:03,973 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:03,973 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,119 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:04,119 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,120 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,120 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.38
+2024-03-29 17:24:04,120 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,120 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,120 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.34
+2024-03-29 17:24:04,120 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,121 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,121 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:04,121 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,121 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,244 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:04,244 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,244 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,244 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.31
+2024-03-29 17:24:04,244 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,245 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,245 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.25
+2024-03-29 17:24:04,245 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,245 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,384 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:04,384 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,384 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,384 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:04,384 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,385 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,532 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:04,532 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,532 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,532 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.25
+2024-03-29 17:24:04,532 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,533 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,669 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.94
+2024-03-29 17:24:04,669 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,669 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,780 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:04,780 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,780 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,780 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:04,781 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,781 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,893 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:04,893 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,893 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:04,893 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:04,894 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:04,894 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,009 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:05,010 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,010 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,010 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:05,010 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,011 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,157 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:05,157 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,157 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,158 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:05,158 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,158 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,279 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:05,279 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,279 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,279 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.33
+2024-03-29 17:24:05,279 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,280 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,280 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:05,280 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,280 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,433 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:05,433 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,433 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,433 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:05,433 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,434 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,583 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:05,584 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,584 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,584 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.31
+2024-03-29 17:24:05,584 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,584 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,584 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:05,585 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,585 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,741 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:05,742 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,742 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,742 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.34
+2024-03-29 17:24:05,742 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,742 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,743 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:05,743 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,743 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,873 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:05,873 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,874 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,874 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.53
+2024-03-29 17:24:05,874 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,874 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,874 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:05,875 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,875 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,988 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:05,989 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,989 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,989 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.58
+2024-03-29 17:24:05,989 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,990 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:05,990 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:05,990 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:05,990 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,102 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:06,102 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,103 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,103 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.72
+2024-03-29 17:24:06,103 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,103 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,103 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:06,104 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,104 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,208 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:06,208 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,208 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,208 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.76
+2024-03-29 17:24:06,209 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,209 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,209 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:06,209 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,209 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,316 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:06,316 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,316 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,316 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.76
+2024-03-29 17:24:06,316 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,317 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,317 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:06,317 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,317 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,428 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:06,428 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,429 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,429 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.77
+2024-03-29 17:24:06,429 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,429 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,429 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:06,429 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,430 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,538 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:06,539 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,539 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,539 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.79
+2024-03-29 17:24:06,539 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,539 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,540 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:06,540 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,540 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,655 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:06,655 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,656 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,656 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.73
+2024-03-29 17:24:06,656 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,656 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,656 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:06,656 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,657 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,773 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:06,773 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,774 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,774 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.72
+2024-03-29 17:24:06,774 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,774 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,774 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:06,774 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,775 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,897 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:06,897 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,897 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,897 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.77
+2024-03-29 17:24:06,897 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,898 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:06,898 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:06,898 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:06,898 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,012 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:07,012 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,013 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,013 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.77
+2024-03-29 17:24:07,013 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,013 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,013 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.25
+2024-03-29 17:24:07,014 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,014 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,133 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:07,133 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,133 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,133 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.80
+2024-03-29 17:24:07,134 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,134 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,134 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:07,134 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,134 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,246 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:07,246 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,246 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,246 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.80
+2024-03-29 17:24:07,246 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,247 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,247 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:07,247 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,247 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,382 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:07,382 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,383 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,383 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.77
+2024-03-29 17:24:07,383 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,383 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,383 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:07,383 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,384 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,515 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:07,515 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,516 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,516 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.76
+2024-03-29 17:24:07,516 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,516 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,516 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:07,516 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,517 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,641 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:07,642 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,642 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,642 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.70
+2024-03-29 17:24:07,642 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,642 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,642 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:07,643 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,643 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,752 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.90
+2024-03-29 17:24:07,753 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,753 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,753 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.68
+2024-03-29 17:24:07,753 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,753 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,753 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:07,754 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,754 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,870 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.90
+2024-03-29 17:24:07,870 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,870 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,870 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.59
+2024-03-29 17:24:07,870 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,871 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,871 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:07,871 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,871 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,990 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:07,990 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,991 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,991 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.61
+2024-03-29 17:24:07,991 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,991 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:07,991 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:07,991 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:07,992 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,107 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:08,107 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,107 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,107 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.62
+2024-03-29 17:24:08,108 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,108 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,108 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:08,108 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,108 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,221 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.90
+2024-03-29 17:24:08,221 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,221 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,221 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.58
+2024-03-29 17:24:08,222 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,222 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,222 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:08,222 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,222 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,337 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.89
+2024-03-29 17:24:08,337 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,338 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,338 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.43
+2024-03-29 17:24:08,338 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,338 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,338 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.42
+2024-03-29 17:24:08,338 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,338 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,339 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:08,339 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,339 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,455 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:08,455 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,456 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,456 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.63
+2024-03-29 17:24:08,456 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,456 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,456 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.35
+2024-03-29 17:24:08,456 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,456 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,457 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:08,457 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,457 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,577 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:08,578 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,578 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,578 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.63
+2024-03-29 17:24:08,578 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,578 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,579 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:08,579 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,579 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,695 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:08,695 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,695 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,695 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.63
+2024-03-29 17:24:08,696 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,696 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,696 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:08,696 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,696 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,813 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:08,813 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,813 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,813 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.67
+2024-03-29 17:24:08,813 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,814 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,814 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:08,814 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,814 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,932 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:08,932 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,933 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,933 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.69
+2024-03-29 17:24:08,933 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,933 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:08,933 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:08,933 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:08,934 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,057 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:09,057 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,058 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,058 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.73
+2024-03-29 17:24:09,058 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,058 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,058 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,058 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,059 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,172 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:09,173 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,173 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,173 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.71
+2024-03-29 17:24:09,173 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,173 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,174 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,174 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,174 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,286 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:09,287 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,287 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,287 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.70
+2024-03-29 17:24:09,287 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,287 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,288 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,288 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,288 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,392 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:09,392 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,393 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,393 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.68
+2024-03-29 17:24:09,393 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,393 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,393 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,393 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,394 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,496 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:09,496 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,497 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,497 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.63
+2024-03-29 17:24:09,497 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,497 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,497 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,497 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,497 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,613 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:09,613 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,613 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,613 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.52
+2024-03-29 17:24:09,614 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,614 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,614 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,614 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,614 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,727 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:09,727 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,727 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,727 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.34
+2024-03-29 17:24:09,728 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,728 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,728 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,728 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,728 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,864 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:09,865 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,865 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,865 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.55
+2024-03-29 17:24:09,865 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,865 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,865 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,866 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,866 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,866 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:09,866 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,866 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,994 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.93
+2024-03-29 17:24:09,994 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,994 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,995 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.46
+2024-03-29 17:24:09,995 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,995 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,995 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.39
+2024-03-29 17:24:09,995 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,995 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,995 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.28
+2024-03-29 17:24:09,996 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,996 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:09,996 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.27
+2024-03-29 17:24:09,996 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:09,996 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,105 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:10,106 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,114 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,114 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.57
+2024-03-29 17:24:10,114 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,114 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,114 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.43
+2024-03-29 17:24:10,114 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,115 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,115 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:10,115 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,115 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,220 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:10,220 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,220 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,220 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.52
+2024-03-29 17:24:10,220 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,221 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,221 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.40
+2024-03-29 17:24:10,221 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,221 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,221 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.36
+2024-03-29 17:24:10,221 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,222 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,222 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.27
+2024-03-29 17:24:10,222 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,222 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,337 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:10,337 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,338 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,338 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.62
+2024-03-29 17:24:10,338 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,338 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,338 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.43
+2024-03-29 17:24:10,338 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,339 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,339 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.38
+2024-03-29 17:24:10,339 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,339 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,339 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.27
+2024-03-29 17:24:10,339 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,340 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,449 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:10,449 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,450 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,450 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.65
+2024-03-29 17:24:10,450 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,450 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,450 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.34
+2024-03-29 17:24:10,450 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,451 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,451 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.33
+2024-03-29 17:24:10,451 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,451 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,451 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.25
+2024-03-29 17:24:10,451 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,452 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,590 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:10,590 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,590 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,590 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.73
+2024-03-29 17:24:10,590 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,591 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,591 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.38
+2024-03-29 17:24:10,591 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,591 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,591 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.28
+2024-03-29 17:24:10,591 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,592 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,717 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.90
+2024-03-29 17:24:10,717 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,717 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,717 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.69
+2024-03-29 17:24:10,718 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,718 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,718 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.50
+2024-03-29 17:24:10,718 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,718 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,718 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:10,719 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,719 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,826 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.88
+2024-03-29 17:24:10,826 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,827 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,827 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.66
+2024-03-29 17:24:10,827 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,827 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,827 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.48
+2024-03-29 17:24:10,827 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,828 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,828 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.27
+2024-03-29 17:24:10,828 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,828 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,934 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.89
+2024-03-29 17:24:10,934 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,935 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,935 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.62
+2024-03-29 17:24:10,935 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,935 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:10,935 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.45
+2024-03-29 17:24:10,936 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:10,936 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,043 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.89
+2024-03-29 17:24:11,043 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,043 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,043 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.72
+2024-03-29 17:24:11,043 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,044 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,044 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.51
+2024-03-29 17:24:11,044 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,044 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,150 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.89
+2024-03-29 17:24:11,150 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,150 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,151 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.72
+2024-03-29 17:24:11,151 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,151 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,151 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.48
+2024-03-29 17:24:11,151 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,151 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,256 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.86
+2024-03-29 17:24:11,256 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,256 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,256 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.67
+2024-03-29 17:24:11,257 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,257 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,257 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.43
+2024-03-29 17:24:11,257 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,257 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,257 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-03-29 17:24:11,258 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,258 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,371 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.89
+2024-03-29 17:24:11,371 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,371 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,371 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.74
+2024-03-29 17:24:11,371 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,372 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,372 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.50
+2024-03-29 17:24:11,372 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,372 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,475 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.89
+2024-03-29 17:24:11,476 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,476 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,476 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.71
+2024-03-29 17:24:11,476 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,476 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,476 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.63
+2024-03-29 17:24:11,476 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,477 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,477 - ObjectDetectionLogger - INFO - 'traffic light' detected in the frame with confidence: 0.27
+2024-03-29 17:24:11,477 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,477 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,584 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.90
+2024-03-29 17:24:11,585 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,585 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,585 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.81
+2024-03-29 17:24:11,585 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,585 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,585 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.48
+2024-03-29 17:24:11,585 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,586 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,586 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.32
+2024-03-29 17:24:11,586 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,586 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,690 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:11,691 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,691 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,691 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.82
+2024-03-29 17:24:11,691 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,691 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,691 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.33
+2024-03-29 17:24:11,691 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,692 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,840 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.90
+2024-03-29 17:24:11,841 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,841 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,841 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.78
+2024-03-29 17:24:11,841 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,841 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,841 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.42
+2024-03-29 17:24:11,842 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,842 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,965 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.80
+2024-03-29 17:24:11,965 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,965 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,965 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.76
+2024-03-29 17:24:11,966 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,966 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:11,966 - ObjectDetectionLogger - INFO - 'traffic light' detected in the frame with confidence: 0.25
+2024-03-29 17:24:11,966 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:11,966 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,103 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.87
+2024-03-29 17:24:12,103 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,103 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,103 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.79
+2024-03-29 17:24:12,103 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,104 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,104 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.44
+2024-03-29 17:24:12,104 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,104 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,104 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.32
+2024-03-29 17:24:12,104 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,105 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,105 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.27
+2024-03-29 17:24:12,105 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,105 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,105 - ObjectDetectionLogger - INFO - 'traffic light' detected in the frame with confidence: 0.26
+2024-03-29 17:24:12,105 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,106 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,219 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:12,220 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,220 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,220 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.81
+2024-03-29 17:24:12,220 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,221 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,221 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.50
+2024-03-29 17:24:12,221 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,221 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,221 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.40
+2024-03-29 17:24:12,221 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,222 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,222 - ObjectDetectionLogger - INFO - 'traffic light' detected in the frame with confidence: 0.29
+2024-03-29 17:24:12,222 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,222 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,333 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:12,334 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,334 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,334 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.77
+2024-03-29 17:24:12,334 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,334 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,335 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.38
+2024-03-29 17:24:12,335 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,335 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,439 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.92
+2024-03-29 17:24:12,439 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,440 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,440 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.65
+2024-03-29 17:24:12,440 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,440 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,557 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.91
+2024-03-29 17:24:12,557 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,558 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,558 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.75
+2024-03-29 17:24:12,558 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,558 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,558 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.49
+2024-03-29 17:24:12,558 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,559 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,669 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.89
+2024-03-29 17:24:12,669 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,669 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,670 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.79
+2024-03-29 17:24:12,670 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,670 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,775 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.90
+2024-03-29 17:24:12,776 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,776 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,776 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.82
+2024-03-29 17:24:12,776 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,776 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,777 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.30
+2024-03-29 17:24:12,777 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,777 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,885 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.82
+2024-03-29 17:24:12,885 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,886 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,886 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.79
+2024-03-29 17:24:12,886 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,886 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,886 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.51
+2024-03-29 17:24:12,886 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,887 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,887 - ObjectDetectionLogger - INFO - 'surfboard' detected in the frame with confidence: 0.35
+2024-03-29 17:24:12,887 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,887 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,887 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.25
+2024-03-29 17:24:12,887 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,888 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,997 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.83
+2024-03-29 17:24:12,998 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,998 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,998 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.80
+2024-03-29 17:24:12,998 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,998 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 2.00%
+2024-03-29 17:24:12,999 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.37
+2024-03-29 17:24:12,999 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,999 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:12,999 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:12,999 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:12,999 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,118 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.79
+2024-03-29 17:24:13,118 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,118 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 3.00%
+2024-03-29 17:24:13,118 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.74
+2024-03-29 17:24:13,119 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,119 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,119 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.39
+2024-03-29 17:24:13,119 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,119 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,119 - ObjectDetectionLogger - INFO - 'surfboard' detected in the frame with confidence: 0.26
+2024-03-29 17:24:13,120 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,120 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,120 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:13,120 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,120 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,248 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.84
+2024-03-29 17:24:13,248 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,249 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 10.00%
+2024-03-29 17:24:13,249 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-03-29 17:24:13,249 - ObjectDetectionLogger - INFO - Saving frame to: '/home/aiden/Desktop/Github Repos/Sequre/data/output/2024-03-29/832db30e9c740df46284f9d4ff2b6a030031a1754785cc9c7f1ad1fe0f18ffdb/person-2024-03-29-17:24:13.jpg'
+2024-03-29 17:24:13,249 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.81
+2024-03-29 17:24:13,249 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,250 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,250 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.32
+2024-03-29 17:24:13,250 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,250 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,250 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-03-29 17:24:13,250 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,251 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,262 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-03-29 17:24:13,387 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.85
+2024-03-29 17:24:13,387 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,388 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,388 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.80
+2024-03-29 17:24:13,388 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,388 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 8.00%
+2024-03-29 17:24:13,388 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.25
+2024-03-29 17:24:13,388 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,389 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,491 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.90
+2024-03-29 17:24:13,492 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,492 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,492 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.82
+2024-03-29 17:24:13,492 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,493 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 10.00%
+2024-03-29 17:24:13,493 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-03-29 17:24:13,493 - ObjectDetectionLogger - INFO - Saving frame to: '/home/aiden/Desktop/Github Repos/Sequre/data/output/2024-03-29/832db30e9c740df46284f9d4ff2b6a030031a1754785cc9c7f1ad1fe0f18ffdb/person-2024-03-29-17:24:13.jpg'
+2024-03-29 17:24:13,493 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.29
+2024-03-29 17:24:13,493 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,493 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,493 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.27
+2024-03-29 17:24:13,494 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-03-29 17:24:13,494 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-03-29 17:24:13,496 - ObjectDetectionLogger - INFO - Exiting the video processing..
+2024-03-29 17:24:13,504 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-03-29 17:24:13,508 - ObjectDetectionLogger - INFO - Video processing completed
