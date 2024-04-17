@@ -1,0 +1,6 @@
+2024-04-17 12:26:58,738 - ObjectDetectionLogger - INFO - Initialising the application
+2024-04-17 12:26:58,740 - ObjectDetectionLogger - INFO - Output directory: 'C:\Users\aido\Desktop\Github Repos\Sequre\data\output\2024-04-17\7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59'
+2024-04-17 12:26:58,968 - ObjectDetectionLogger - INFO - Opening the video file..
+2024-04-17 12:26:58,980 - ObjectDetectionLogger - WARNING - Input file does not exist or cannot be read: [Errno 2] No such file or directory: 'data\\output\\roi_points\\7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59_roi_points.npy'
+2024-04-17 12:26:59,004 - ObjectDetectionLogger - INFO - Setting region of interest points..
+2024-04-17 12:27:20,458 - ObjectDetectionLogger - INFO - Region of interest points set successfully

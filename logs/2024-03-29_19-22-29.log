@@ -1,0 +1,8 @@
+2024-03-29 19:22:29,832 - ObjectDetectionLogger - INFO - Initialising the application
+2024-03-29 19:22:29,833 - ObjectDetectionLogger - INFO - Output directory: '/home/aiden/Desktop/Github Repos/Sequre/data/output/2024-03-29/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59'
+2024-03-29 19:22:30,115 - ObjectDetectionLogger - INFO - Opening the video file..
+2024-03-29 19:22:30,126 - ObjectDetectionLogger - WARNING - Input file does not exist or cannot be read: [Errno 2] No such file or directory: 'data/output/roi_points/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59_roi_points.npy'
+2024-03-29 19:22:30,144 - ObjectDetectionLogger - INFO - Setting region of interest points..
+2024-03-29 19:22:32,055 - ObjectDetectionLogger - INFO - Region of interest points set successfully
+2024-03-29 19:22:32,898 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.78
+2024-03-29 19:22:32,898 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully

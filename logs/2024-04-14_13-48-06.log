@@ -1,0 +1,1493 @@
+2024-04-14 13:48:06,364 - ObjectDetectionLogger - INFO - Initialising the application
+2024-04-14 13:48:06,365 - ObjectDetectionLogger - INFO - Output directory: 'C:\Users\aido\Desktop\Github Repos\Sequre\data\output\2024-04-14\7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59'
+2024-04-14 13:48:06,623 - ObjectDetectionLogger - INFO - Opening the video file..
+2024-04-14 13:48:06,638 - ObjectDetectionLogger - INFO - Region of interest points loaded successfully. Num points: 8
+2024-04-14 13:48:10,947 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.76
+2024-04-14 13:48:10,958 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.2059e+02, 2.9445e-01, 4.8851e+02, 5.9549e+01])
+2024-04-14 13:48:10,958 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:10,959 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:10,960 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:10,960 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.69
+2024-04-14 13:48:10,961 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([282.5490, 293.0264, 334.0182, 457.3082])
+2024-04-14 13:48:10,962 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:10,962 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:10,963 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 100.00%
+2024-04-14 13:48:10,963 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:10,963 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:10.jpg'
+2024-04-14 13:48:10,964 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.33
+2024-04-14 13:48:10,964 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([  5.3354, 235.3467, 296.9272, 479.6258])
+2024-04-14 13:48:10,965 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:10,965 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:10,966 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 63.00%
+2024-04-14 13:48:10,966 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:10,966 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:10,966 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.28
+2024-04-14 13:48:10,966 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:10,967 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.5226e-01, 8.3814e+01, 1.6441e+02, 3.3344e+02])
+2024-04-14 13:48:10,967 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:10,967 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:10,968 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:11,583 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.78
+2024-04-14 13:48:11,584 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1981e+02, 2.5807e-01, 4.8854e+02, 5.9522e+01])
+2024-04-14 13:48:11,584 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,585 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,585 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:11,585 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.76
+2024-04-14 13:48:11,586 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([281.1234, 272.9792, 339.4239, 434.8827])
+2024-04-14 13:48:11,586 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,586 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,587 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 91.00%
+2024-04-14 13:48:11,587 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:11,588 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:11.jpg'
+2024-04-14 13:48:11,588 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.68
+2024-04-14 13:48:11,589 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 43.3064, 235.4460, 294.0282, 479.6242])
+2024-04-14 13:48:11,589 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,590 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,590 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:11,591 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:11,591 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:11,591 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:11.jpg'
+2024-04-14 13:48:11,592 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.32
+2024-04-14 13:48:11,592 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.6123e-01, 8.3859e+01, 1.6448e+02, 3.3406e+02])
+2024-04-14 13:48:11,593 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,593 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,594 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:11,595 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:11,848 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.81
+2024-04-14 13:48:11,849 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1960e+02, 2.0801e-01, 4.8854e+02, 5.9436e+01])
+2024-04-14 13:48:11,849 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,849 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,850 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:11,850 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.78
+2024-04-14 13:48:11,850 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([277.4532, 265.1371, 343.5742, 434.7123])
+2024-04-14 13:48:11,851 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,851 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,852 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 83.00%
+2024-04-14 13:48:11,852 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:11,852 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:11.jpg'
+2024-04-14 13:48:11,853 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.72
+2024-04-14 13:48:11,853 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 38.3225, 234.9809, 292.7641, 479.6682])
+2024-04-14 13:48:11,854 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,854 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,855 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:11,855 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:11,855 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:11,856 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:11.jpg'
+2024-04-14 13:48:11,856 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.32
+2024-04-14 13:48:11,856 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.7248e-01, 8.3600e+01, 1.6442e+02, 3.3393e+02])
+2024-04-14 13:48:11,857 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,857 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,858 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:11,858 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.28
+2024-04-14 13:48:11,859 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.0055e-01, 8.3033e+01, 1.6420e+02, 3.3454e+02])
+2024-04-14 13:48:11,859 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:11,859 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,859 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:11,860 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:12,101 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.82
+2024-04-14 13:48:12,101 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 46.3044, 235.4419, 297.5769, 479.6512])
+2024-04-14 13:48:12,101 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,102 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,102 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:12,102 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:12,103 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:12.jpg'
+2024-04-14 13:48:12,104 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.81
+2024-04-14 13:48:12,104 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1937e+02, 1.9004e-01, 4.8851e+02, 5.9464e+01])
+2024-04-14 13:48:12,105 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,105 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,106 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:12,106 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.75
+2024-04-14 13:48:12,106 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:12,107 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([279.7965, 249.7537, 347.0383, 428.3043])
+2024-04-14 13:48:12,107 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,107 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,108 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 81.00%
+2024-04-14 13:48:12,108 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:12,109 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:12.jpg'
+2024-04-14 13:48:12,109 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.41
+2024-04-14 13:48:12,110 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.9994e-01, 8.3093e+01, 1.6428e+02, 3.3472e+02])
+2024-04-14 13:48:12,110 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,110 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,111 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:12,111 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:12,364 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.82
+2024-04-14 13:48:12,365 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1908e+02, 1.8940e-01, 4.8850e+02, 5.9448e+01])
+2024-04-14 13:48:12,365 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,366 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,366 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:12,366 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.81
+2024-04-14 13:48:12,367 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 46.7354, 235.6117, 293.1809, 479.6224])
+2024-04-14 13:48:12,367 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,368 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,368 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:12,369 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:12,369 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:12.jpg'
+2024-04-14 13:48:12,369 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.77
+2024-04-14 13:48:12,370 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([286.0180, 239.7077, 347.8318, 408.6148])
+2024-04-14 13:48:12,370 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,371 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,371 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 71.00%
+2024-04-14 13:48:12,371 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:12,372 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:12,372 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:12.jpg'
+2024-04-14 13:48:12,373 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.41
+2024-04-14 13:48:12,374 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.0454e-01, 8.3065e+01, 1.6442e+02, 3.3540e+02])
+2024-04-14 13:48:12,374 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,374 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,375 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:12,376 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:12,630 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.86
+2024-04-14 13:48:12,631 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([285.9364, 219.7557, 348.3856, 376.8787])
+2024-04-14 13:48:12,631 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,631 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,632 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 60.00%
+2024-04-14 13:48:12,632 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:12,633 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:12.jpg'
+2024-04-14 13:48:12,633 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:12,633 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1903e+02, 1.8703e-01, 4.8850e+02, 5.9576e+01])
+2024-04-14 13:48:12,634 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,634 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,635 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:12,635 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.77
+2024-04-14 13:48:12,635 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.4836, 235.4657, 299.6244, 479.5743])
+2024-04-14 13:48:12,635 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,636 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:12,636 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,637 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:12,637 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:12,637 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:12.jpg'
+2024-04-14 13:48:12,638 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.36
+2024-04-14 13:48:12,638 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.0189e-01, 8.3086e+01, 1.6422e+02, 3.3521e+02])
+2024-04-14 13:48:12,638 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,639 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,639 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:12,640 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:12,885 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.87
+2024-04-14 13:48:12,885 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([285.8906, 212.1642, 347.5963, 373.6469])
+2024-04-14 13:48:12,886 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,886 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,887 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 52.00%
+2024-04-14 13:48:12,887 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:12,887 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:12.jpg'
+2024-04-14 13:48:12,888 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:12,888 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1908e+02, 1.9518e-01, 4.8846e+02, 5.9578e+01])
+2024-04-14 13:48:12,889 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,889 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,890 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:12,890 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.76
+2024-04-14 13:48:12,891 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.2056, 235.4602, 301.6589, 479.5692])
+2024-04-14 13:48:12,891 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:12,892 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,892 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,893 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:12,893 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:12,894 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:12.jpg'
+2024-04-14 13:48:12,894 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.40
+2024-04-14 13:48:12,895 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.8773e-01, 8.3114e+01, 1.6414e+02, 3.3524e+02])
+2024-04-14 13:48:12,895 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,896 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:12,896 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:12,896 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:13,141 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.85
+2024-04-14 13:48:13,142 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([283.6794, 200.5159, 341.9064, 374.2154])
+2024-04-14 13:48:13,142 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,142 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,143 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 51.00%
+2024-04-14 13:48:13,143 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:13,144 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:13.jpg'
+2024-04-14 13:48:13,144 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:13,145 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1902e+02, 1.9262e-01, 4.8848e+02, 5.9539e+01])
+2024-04-14 13:48:13,145 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,145 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,146 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:13,146 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.81
+2024-04-14 13:48:13,147 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.7416, 235.3552, 300.6443, 479.5623])
+2024-04-14 13:48:13,147 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:13,147 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,148 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,148 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:13,149 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:13,149 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:13.jpg'
+2024-04-14 13:48:13,149 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.40
+2024-04-14 13:48:13,150 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.9954e-01, 8.3115e+01, 1.6401e+02, 3.3519e+02])
+2024-04-14 13:48:13,150 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,151 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,151 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:13,152 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:13,395 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:13,396 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1885e+02, 2.1202e-01, 4.8839e+02, 5.9668e+01])
+2024-04-14 13:48:13,396 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,396 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,397 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:13,397 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.81
+2024-04-14 13:48:13,397 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.9477, 235.3713, 300.3595, 479.5836])
+2024-04-14 13:48:13,398 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,398 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,399 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:13,399 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:13,399 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:13.jpg'
+2024-04-14 13:48:13,400 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.73
+2024-04-14 13:48:13,400 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([281.2745, 193.6626, 337.1234, 358.3156])
+2024-04-14 13:48:13,401 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,401 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,401 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 43.00%
+2024-04-14 13:48:13,402 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:13,402 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:13.jpg'
+2024-04-14 13:48:13,402 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:13,403 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.46
+2024-04-14 13:48:13,403 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.5862e-01, 8.3457e+01, 1.6414e+02, 3.3459e+02])
+2024-04-14 13:48:13,404 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,404 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,404 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:13,405 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:13,663 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.85
+2024-04-14 13:48:13,664 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([276.1497, 180.5475, 329.4844, 329.2917])
+2024-04-14 13:48:13,664 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,664 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,665 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 33.00%
+2024-04-14 13:48:13,665 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:13,666 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:13.jpg'
+2024-04-14 13:48:13,666 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:13,667 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1875e+02, 2.2105e-01, 4.8840e+02, 5.9651e+01])
+2024-04-14 13:48:13,667 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,667 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,668 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:13,668 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.80
+2024-04-14 13:48:13,668 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:13,669 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.7336, 234.5220, 300.6026, 479.5729])
+2024-04-14 13:48:13,669 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,669 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,670 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:13,670 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:13,671 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:13.jpg'
+2024-04-14 13:48:13,671 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.45
+2024-04-14 13:48:13,672 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.7821e-01, 8.3491e+01, 1.6422e+02, 3.3432e+02])
+2024-04-14 13:48:13,672 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,673 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,673 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:13,674 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:13,674 - ObjectDetectionLogger - INFO - 'handbag' detected in the frame with confidence: 0.26
+2024-04-14 13:48:13,675 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([295.2694, 271.1434, 328.1572, 328.1299])
+2024-04-14 13:48:13,675 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,676 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,676 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 71.00%
+2024-04-14 13:48:13,676 - ObjectDetectionLogger - INFO - 'handbag' detected inside the region of interest
+2024-04-14 13:48:13,676 - ObjectDetectionLogger - INFO - Detected object class 'handbag' in ROI, though not in classes to monitor
+2024-04-14 13:48:13,915 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.84
+2024-04-14 13:48:13,916 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([273.7584, 175.9687, 326.9044, 323.4582])
+2024-04-14 13:48:13,916 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,916 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,917 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 33.00%
+2024-04-14 13:48:13,917 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:13,917 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:13.jpg'
+2024-04-14 13:48:13,918 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:13,918 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1878e+02, 2.2721e-01, 4.8839e+02, 5.9633e+01])
+2024-04-14 13:48:13,918 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,919 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,919 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:13,919 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.82
+2024-04-14 13:48:13,920 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.7084, 234.4957, 301.1722, 479.5725])
+2024-04-14 13:48:13,920 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,920 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,920 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:13,921 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:13,921 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:13,922 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:13.jpg'
+2024-04-14 13:48:13,922 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.44
+2024-04-14 13:48:13,923 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.8213e-01, 8.3487e+01, 1.6424e+02, 3.3436e+02])
+2024-04-14 13:48:13,923 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,924 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:13,924 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:13,925 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:14,168 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:14,168 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1852e+02, 2.0053e-01, 4.8840e+02, 5.9565e+01])
+2024-04-14 13:48:14,168 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,169 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,169 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:14,169 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.83
+2024-04-14 13:48:14,170 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([270.1397, 165.5330, 320.3990, 323.9673])
+2024-04-14 13:48:14,170 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,170 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,171 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 32.00%
+2024-04-14 13:48:14,171 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:14,172 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:14.jpg'
+2024-04-14 13:48:14,172 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.82
+2024-04-14 13:48:14,173 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.8216, 234.2413, 303.0668, 479.5751])
+2024-04-14 13:48:14,173 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,173 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,174 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:14,174 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:14,175 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:14,175 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:14.jpg'
+2024-04-14 13:48:14,176 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.43
+2024-04-14 13:48:14,176 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.0563e-01, 8.3478e+01, 1.6415e+02, 3.3375e+02])
+2024-04-14 13:48:14,176 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,177 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,177 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:14,178 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:14,422 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:14,423 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1857e+02, 2.0272e-01, 4.8840e+02, 5.9559e+01])
+2024-04-14 13:48:14,423 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,424 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,424 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:14,424 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.84
+2024-04-14 13:48:14,425 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([268.6102, 162.9467, 317.2175, 324.1658])
+2024-04-14 13:48:14,425 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,426 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,426 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 33.00%
+2024-04-14 13:48:14,426 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:14,427 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:14.jpg'
+2024-04-14 13:48:14,427 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:14,428 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.8944, 234.3838, 303.1007, 479.5735])
+2024-04-14 13:48:14,428 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,429 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,429 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:14,429 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:14,430 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:14.jpg'
+2024-04-14 13:48:14,430 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:14,430 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.46
+2024-04-14 13:48:14,431 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.0569e-01, 8.3468e+01, 1.6426e+02, 3.3375e+02])
+2024-04-14 13:48:14,431 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,432 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,432 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:14,433 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:14,663 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:14,663 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1857e+02, 2.0706e-01, 4.8839e+02, 5.9550e+01])
+2024-04-14 13:48:14,663 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,664 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,664 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:14,664 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.83
+2024-04-14 13:48:14,665 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([263.1511, 154.4925, 307.4094, 303.2763])
+2024-04-14 13:48:14,665 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,665 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,666 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 22.00%
+2024-04-14 13:48:14,666 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.82
+2024-04-14 13:48:14,666 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.6736, 234.3861, 299.9857, 479.5747])
+2024-04-14 13:48:14,667 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,667 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,668 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:14,668 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:14,669 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:14.jpg'
+2024-04-14 13:48:14,669 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.46
+2024-04-14 13:48:14,669 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.0587e-01, 8.3430e+01, 1.6419e+02, 3.3376e+02])
+2024-04-14 13:48:14,670 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,670 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,671 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:14,672 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:14,917 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:14,917 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1860e+02, 2.1098e-01, 4.8841e+02, 5.9549e+01])
+2024-04-14 13:48:14,918 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,918 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,919 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:14,919 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.83
+2024-04-14 13:48:14,919 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([259.7493, 150.2421, 300.7292, 293.4070])
+2024-04-14 13:48:14,919 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,920 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,920 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 20.00%
+2024-04-14 13:48:14,920 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.73
+2024-04-14 13:48:14,921 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.0989, 234.2179, 299.8508, 479.5578])
+2024-04-14 13:48:14,921 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,921 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,922 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:14,922 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:14,923 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:14.jpg'
+2024-04-14 13:48:14,923 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.44
+2024-04-14 13:48:14,924 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.0213e-01, 8.3473e+01, 1.6413e+02, 3.3390e+02])
+2024-04-14 13:48:14,924 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,924 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:14,925 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:14,926 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:15,177 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.87
+2024-04-14 13:48:15,178 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([249.3137, 147.6145, 299.8066, 280.5177])
+2024-04-14 13:48:15,178 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,178 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,179 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 15.00%
+2024-04-14 13:48:15,179 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:15,179 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1845e+02, 2.2337e-01, 4.8841e+02, 5.9584e+01])
+2024-04-14 13:48:15,180 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,180 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,181 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:15,181 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.57
+2024-04-14 13:48:15,181 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 43.8685, 235.5204, 299.7617, 479.5629])
+2024-04-14 13:48:15,181 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,182 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,182 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:15,182 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:15,183 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:15.jpg'
+2024-04-14 13:48:15,183 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.36
+2024-04-14 13:48:15,184 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.3547e-01, 8.3635e+01, 1.6431e+02, 3.3393e+02])
+2024-04-14 13:48:15,184 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,185 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,185 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:15,185 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.33
+2024-04-14 13:48:15,186 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 39.8018, 234.3246, 299.5018, 479.5913])
+2024-04-14 13:48:15,186 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:15,187 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,187 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,188 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:15,188 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:15,188 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:15,432 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.87
+2024-04-14 13:48:15,433 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([244.1367, 147.6901, 299.4609, 280.8260])
+2024-04-14 13:48:15,433 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,434 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,434 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 17.00%
+2024-04-14 13:48:15,434 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:15,435 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1879e+02, 2.0492e-01, 4.8850e+02, 5.9606e+01])
+2024-04-14 13:48:15,435 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,435 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,436 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:15,436 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.58
+2024-04-14 13:48:15,436 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 43.2165, 234.2632, 299.8760, 479.5615])
+2024-04-14 13:48:15,437 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,437 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,438 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:15,438 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:15,439 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:15.jpg'
+2024-04-14 13:48:15,439 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.38
+2024-04-14 13:48:15,439 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.3544e-01, 8.3587e+01, 1.6429e+02, 3.3412e+02])
+2024-04-14 13:48:15,440 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,440 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:15,441 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:15,441 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:17,582 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:17,583 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1939e+02, 2.5847e-01, 4.8852e+02, 5.9746e+01])
+2024-04-14 13:48:17,583 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,584 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,584 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:17,585 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.80
+2024-04-14 13:48:17,585 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([230.8504, 149.7368, 296.6760, 277.5956])
+2024-04-14 13:48:17,585 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,586 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,586 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 21.00%
+2024-04-14 13:48:17,586 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.52
+2024-04-14 13:48:17,587 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 43.8251, 234.0722, 300.0871, 479.5708])
+2024-04-14 13:48:17,587 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,587 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,588 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:17,588 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:17,589 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:17.jpg'
+2024-04-14 13:48:17,589 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.43
+2024-04-14 13:48:17,590 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 34.2781, 234.7180, 299.9400, 479.6023])
+2024-04-14 13:48:17,590 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,590 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,591 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:17,591 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:17,591 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:17,591 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.40
+2024-04-14 13:48:17,592 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:17,592 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.3553e-01, 8.3870e+01, 1.6382e+02, 3.3407e+02])
+2024-04-14 13:48:17,593 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,593 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,594 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:17,594 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.40
+2024-04-14 13:48:17,595 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7654e+02, 6.2607e-02, 5.3543e+02, 3.7401e+01])
+2024-04-14 13:48:17,595 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,596 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:17,596 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:18,182 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:18,183 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1937e+02, 2.5866e-01, 4.8853e+02, 5.9745e+01])
+2024-04-14 13:48:18,183 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,184 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,184 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:18,185 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.83
+2024-04-14 13:48:18,185 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([222.5515, 150.7424, 286.7069, 265.5554])
+2024-04-14 13:48:18,185 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,186 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,187 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 20.00%
+2024-04-14 13:48:18,187 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.49
+2024-04-14 13:48:18,187 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.3282, 233.9754, 300.1097, 479.5811])
+2024-04-14 13:48:18,188 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,188 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,189 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:18,189 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:18,211 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:18.jpg'
+2024-04-14 13:48:18,211 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.48
+2024-04-14 13:48:18,212 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 37.5914, 234.4987, 299.9561, 479.5934])
+2024-04-14 13:48:18,212 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,213 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,213 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:18,214 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:18,214 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:18,214 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.43
+2024-04-14 13:48:18,214 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.4197e-01, 8.3723e+01, 1.6373e+02, 3.3431e+02])
+2024-04-14 13:48:18,215 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,215 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,216 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:18,216 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:18,217 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.38
+2024-04-14 13:48:18,217 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7670e+02, 6.4430e-02, 5.3554e+02, 3.7094e+01])
+2024-04-14 13:48:18,218 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,218 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:18,219 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:20,780 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:20,781 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1937e+02, 2.5829e-01, 4.8853e+02, 5.9758e+01])
+2024-04-14 13:48:20,781 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,782 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,782 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:20,783 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.82
+2024-04-14 13:48:20,783 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([210.8288, 151.4166, 250.9259, 242.0883])
+2024-04-14 13:48:20,784 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,784 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,785 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 19.00%
+2024-04-14 13:48:20,785 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.49
+2024-04-14 13:48:20,785 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.1425, 233.6163, 300.1342, 479.5789])
+2024-04-14 13:48:20,786 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,786 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,787 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:20,787 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:20,788 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:20.jpg'
+2024-04-14 13:48:20,788 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.47
+2024-04-14 13:48:20,789 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.6688, 234.1339, 299.9763, 479.5831])
+2024-04-14 13:48:20,789 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,790 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,791 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:20,791 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:20,791 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:20,791 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:20,791 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.42
+2024-04-14 13:48:20,792 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.3189e-01, 8.3672e+01, 1.6455e+02, 3.3452e+02])
+2024-04-14 13:48:20,792 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,793 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,794 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:20,794 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.38
+2024-04-14 13:48:20,794 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7672e+02, 6.5361e-02, 5.3546e+02, 3.7075e+01])
+2024-04-14 13:48:20,795 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,795 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:20,796 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:21,076 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:21,076 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1937e+02, 2.4087e-01, 4.8861e+02, 5.9749e+01])
+2024-04-14 13:48:21,077 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,077 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,078 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:21,078 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.82
+2024-04-14 13:48:21,078 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([204.8608, 152.1750, 247.2245, 241.4691])
+2024-04-14 13:48:21,078 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,079 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,079 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 21.00%
+2024-04-14 13:48:21,079 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.49
+2024-04-14 13:48:21,080 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.1208, 233.9588, 300.1342, 479.5841])
+2024-04-14 13:48:21,080 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,081 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,081 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:21,081 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:21,082 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:21.jpg'
+2024-04-14 13:48:21,082 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.49
+2024-04-14 13:48:21,083 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 41.7701, 234.2956, 299.9580, 479.5809])
+2024-04-14 13:48:21,083 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,084 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,084 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:21,084 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:21,084 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:21,085 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.42
+2024-04-14 13:48:21,085 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:21,085 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.2432e-01, 8.3745e+01, 1.6465e+02, 3.3449e+02])
+2024-04-14 13:48:21,086 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,086 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,087 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:21,087 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.34
+2024-04-14 13:48:21,087 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7663e+02, 7.6054e-02, 5.3526e+02, 3.7135e+01])
+2024-04-14 13:48:21,088 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,088 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:21,089 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:23,201 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:23,202 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1939e+02, 2.3837e-01, 4.8861e+02, 5.9732e+01])
+2024-04-14 13:48:23,202 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:23,203 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:23,203 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:23,204 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.41
+2024-04-14 13:48:23,204 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.0327e-01, 8.3583e+01, 1.6473e+02, 3.3461e+02])
+2024-04-14 13:48:23,204 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:23,205 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:23,206 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:23,206 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.37
+2024-04-14 13:48:23,206 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.3621, 232.6820, 299.9962, 479.6071])
+2024-04-14 13:48:23,207 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:23,207 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:23,208 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 67.00%
+2024-04-14 13:48:23,208 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:23,208 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:23,208 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.35
+2024-04-14 13:48:23,209 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7668e+02, 8.0158e-02, 5.3524e+02, 3.7145e+01])
+2024-04-14 13:48:23,209 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:23,210 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:23,210 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:24,080 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:24,080 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1938e+02, 2.4101e-01, 4.8860e+02, 5.9733e+01])
+2024-04-14 13:48:24,081 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,081 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,082 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:24,082 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.36
+2024-04-14 13:48:24,082 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.1602e-01, 8.3748e+01, 1.6444e+02, 3.3422e+02])
+2024-04-14 13:48:24,082 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,083 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,083 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:24,084 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.35
+2024-04-14 13:48:24,084 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7665e+02, 8.0517e-02, 5.3523e+02, 3.7141e+01])
+2024-04-14 13:48:24,084 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,085 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,085 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:24,085 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.34
+2024-04-14 13:48:24,086 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.7445, 235.5764, 299.6572, 479.7457])
+2024-04-14 13:48:24,086 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,086 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,087 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:24,087 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:24,087 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:24,087 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.30
+2024-04-14 13:48:24,088 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.5165, 236.7909, 300.1065, 479.6296])
+2024-04-14 13:48:24,088 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,088 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,089 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:24,089 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:24,090 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:24.jpg'
+2024-04-14 13:48:24,094 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:24,366 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:24,366 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1947e+02, 2.3992e-01, 4.8859e+02, 5.9729e+01])
+2024-04-14 13:48:24,367 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,367 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,368 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:24,368 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.60
+2024-04-14 13:48:24,369 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([173.1606, 160.6642, 212.2453, 251.3251])
+2024-04-14 13:48:24,369 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,369 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,370 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 18.00%
+2024-04-14 13:48:24,371 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.56
+2024-04-14 13:48:24,372 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.6084, 234.2393, 300.0121, 479.5853])
+2024-04-14 13:48:24,372 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,373 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,373 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:24,374 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:24,374 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:24,374 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.44
+2024-04-14 13:48:24,375 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.3833, 235.2520, 300.2143, 479.5657])
+2024-04-14 13:48:24,375 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,376 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,377 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:24,377 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:24,378 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:24.jpg'
+2024-04-14 13:48:24,379 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.42
+2024-04-14 13:48:24,380 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.0852e-01, 8.3408e+01, 1.6363e+02, 3.3453e+02])
+2024-04-14 13:48:24,380 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,381 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,381 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:24,382 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.35
+2024-04-14 13:48:24,382 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:24,383 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7669e+02, 8.1814e-02, 5.3528e+02, 3.7114e+01])
+2024-04-14 13:48:24,384 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,384 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:24,385 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:26,276 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:26,277 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1880e+02, 2.5531e-01, 4.8864e+02, 5.9762e+01])
+2024-04-14 13:48:26,278 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,278 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,279 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:26,279 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.55
+2024-04-14 13:48:26,280 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([166.8219, 165.0496, 206.5110, 260.3555])
+2024-04-14 13:48:26,280 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,281 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,281 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 22.00%
+2024-04-14 13:48:26,282 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.50
+2024-04-14 13:48:26,282 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.2507, 233.7294, 299.8592, 479.5778])
+2024-04-14 13:48:26,283 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,283 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,284 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:26,285 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:26,286 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:26.jpg'
+2024-04-14 13:48:26,286 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.41
+2024-04-14 13:48:26,287 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.0613, 234.3069, 299.7786, 479.5744])
+2024-04-14 13:48:26,287 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,288 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,288 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:26,289 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:26,289 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:26,289 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.39
+2024-04-14 13:48:26,289 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.1160e-01, 8.3341e+01, 1.6487e+02, 3.3374e+02])
+2024-04-14 13:48:26,290 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,290 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,291 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:26,292 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:26,292 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.30
+2024-04-14 13:48:26,293 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7781e+02, 7.4852e-02, 5.3616e+02, 3.6870e+01])
+2024-04-14 13:48:26,293 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,294 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:26,294 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:27,195 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:27,196 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1902e+02, 2.2745e-01, 4.8867e+02, 5.9774e+01])
+2024-04-14 13:48:27,196 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,197 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,197 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:27,197 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.53
+2024-04-14 13:48:27,198 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.6550, 233.9851, 299.8483, 479.5736])
+2024-04-14 13:48:27,198 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,198 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,199 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:27,199 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:27,200 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:27.jpg'
+2024-04-14 13:48:27,200 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.44
+2024-04-14 13:48:27,201 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([154.2346, 170.3219, 195.9765, 271.0506])
+2024-04-14 13:48:27,201 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,201 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,202 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 22.00%
+2024-04-14 13:48:27,202 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.42
+2024-04-14 13:48:27,203 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 41.1135, 234.4801, 299.7726, 479.5737])
+2024-04-14 13:48:27,203 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:27,203 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,204 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,204 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:27,204 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:27,205 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:27,205 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.42
+2024-04-14 13:48:27,205 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.5457e-01, 8.3480e+01, 1.6506e+02, 3.3347e+02])
+2024-04-14 13:48:27,206 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,206 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,207 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:27,207 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.31
+2024-04-14 13:48:27,208 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7785e+02, 1.1289e-01, 5.3680e+02, 3.6755e+01])
+2024-04-14 13:48:27,208 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,209 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,209 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:27,778 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:27,779 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1891e+02, 2.2120e-01, 4.8868e+02, 5.9777e+01])
+2024-04-14 13:48:27,779 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,780 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,781 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:27,781 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.61
+2024-04-14 13:48:27,781 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([150.0326, 182.2339, 190.2510, 274.5110])
+2024-04-14 13:48:27,782 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,782 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,783 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 25.00%
+2024-04-14 13:48:27,783 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:27,785 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:27.jpg'
+2024-04-14 13:48:27,785 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.50
+2024-04-14 13:48:27,786 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 41.6667, 234.7093, 299.7821, 479.5848])
+2024-04-14 13:48:27,786 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,787 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,788 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:27,788 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:27,788 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:27,788 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.44
+2024-04-14 13:48:27,788 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.7142, 234.1694, 299.9304, 479.5837])
+2024-04-14 13:48:27,789 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,789 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,790 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:27,790 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:27,794 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:27,798 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:27.jpg'
+2024-04-14 13:48:27,799 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.40
+2024-04-14 13:48:27,799 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.2601e-01, 8.3664e+01, 1.6149e+02, 3.3404e+02])
+2024-04-14 13:48:27,800 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,800 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,801 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:27,801 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.31
+2024-04-14 13:48:27,802 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7786e+02, 1.1356e-01, 5.3683e+02, 3.6729e+01])
+2024-04-14 13:48:27,802 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,802 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:27,803 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:27,803 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:30,062 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:30,063 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1893e+02, 2.2343e-01, 4.8869e+02, 5.9779e+01])
+2024-04-14 13:48:30,063 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,064 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,064 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:30,064 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.56
+2024-04-14 13:48:30,065 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.1316, 235.4749, 300.0931, 479.5717])
+2024-04-14 13:48:30,065 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,066 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,066 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:30,066 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:30,067 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:30.jpg'
+2024-04-14 13:48:30,067 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.37
+2024-04-14 13:48:30,068 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 41.9073, 234.5357, 299.8720, 479.5932])
+2024-04-14 13:48:30,068 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,069 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,070 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:30,070 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:30,070 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:30,070 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.32
+2024-04-14 13:48:30,070 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:30,071 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.0087e-01, 8.3257e+01, 1.6893e+02, 3.3362e+02])
+2024-04-14 13:48:30,071 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,072 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,072 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:30,073 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.32
+2024-04-14 13:48:30,073 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7761e+02, 1.0880e-01, 5.3688e+02, 3.6841e+01])
+2024-04-14 13:48:30,073 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,074 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,075 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:30,795 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:30,796 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1892e+02, 2.2411e-01, 4.8869e+02, 5.9775e+01])
+2024-04-14 13:48:30,797 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,797 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,798 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:30,798 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.57
+2024-04-14 13:48:30,799 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.5679, 235.2635, 300.0015, 479.5824])
+2024-04-14 13:48:30,799 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,799 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,800 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:30,800 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:30,801 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:30.jpg'
+2024-04-14 13:48:30,802 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.33
+2024-04-14 13:48:30,803 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.6062e-01, 8.3596e+01, 1.6502e+02, 3.3282e+02])
+2024-04-14 13:48:30,803 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,803 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,804 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:30,804 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.32
+2024-04-14 13:48:30,805 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.5844e-01, 8.3188e+01, 1.6631e+02, 3.3316e+02])
+2024-04-14 13:48:30,806 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,806 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,807 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:30,807 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:30,809 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.32
+2024-04-14 13:48:30,809 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7763e+02, 1.0918e-01, 5.3689e+02, 3.6829e+01])
+2024-04-14 13:48:30,809 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,809 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,810 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:30,810 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.31
+2024-04-14 13:48:30,810 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([133.1463, 195.5478, 171.6483, 280.3437])
+2024-04-14 13:48:30,811 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,811 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:30,812 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 17.00%
+2024-04-14 13:48:32,574 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:32,574 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1894e+02, 2.2578e-01, 4.8869e+02, 5.9777e+01])
+2024-04-14 13:48:32,575 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,575 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,576 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:32,576 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.51
+2024-04-14 13:48:32,576 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 92.8416, 197.9471, 161.1337, 315.4489])
+2024-04-14 13:48:32,577 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,577 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,578 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 25.00%
+2024-04-14 13:48:32,578 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:32,579 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:32.jpg'
+2024-04-14 13:48:32,579 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.48
+2024-04-14 13:48:32,579 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.9479, 234.0920, 299.9299, 479.5833])
+2024-04-14 13:48:32,580 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,580 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,581 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:32,581 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:32,582 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:32.jpg'
+2024-04-14 13:48:32,582 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.34
+2024-04-14 13:48:32,582 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:32,583 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 42.4541, 234.7087, 299.7982, 479.5695])
+2024-04-14 13:48:32,583 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,584 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,584 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:32,584 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:32,585 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:32,585 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.32
+2024-04-14 13:48:32,585 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:32,586 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7763e+02, 1.0918e-01, 5.3682e+02, 3.6875e+01])
+2024-04-14 13:48:32,586 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,586 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,587 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:32,860 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:32,861 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1886e+02, 2.1542e-01, 4.8869e+02, 5.9783e+01])
+2024-04-14 13:48:32,861 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,861 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,862 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:32,862 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.65
+2024-04-14 13:48:32,862 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([101.9452, 206.6327, 157.1407, 313.4216])
+2024-04-14 13:48:32,863 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,863 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,864 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 28.00%
+2024-04-14 13:48:32,864 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:32,864 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:32.jpg'
+2024-04-14 13:48:32,865 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.58
+2024-04-14 13:48:32,865 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.2353, 233.9025, 299.9222, 479.5938])
+2024-04-14 13:48:32,866 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,866 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,867 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:32,867 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:32,867 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:32.jpg'
+2024-04-14 13:48:32,868 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.33
+2024-04-14 13:48:32,868 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:32,868 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7781e+02, 1.1502e-01, 5.3653e+02, 3.6927e+01])
+2024-04-14 13:48:32,868 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,869 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:32,869 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:32,870 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:33,388 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:33,389 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1884e+02, 2.0473e-01, 4.8870e+02, 5.9747e+01])
+2024-04-14 13:48:33,389 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,389 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,390 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:33,390 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.71
+2024-04-14 13:48:33,391 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([102.5097, 215.8957, 152.9443, 313.0619])
+2024-04-14 13:48:33,391 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,391 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,392 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 28.00%
+2024-04-14 13:48:33,392 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:33,393 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:33.jpg'
+2024-04-14 13:48:33,393 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.50
+2024-04-14 13:48:33,393 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 41.5250, 234.8652, 300.5777, 479.6191])
+2024-04-14 13:48:33,394 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,394 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,395 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:33,395 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:33,396 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:33.jpg'
+2024-04-14 13:48:33,396 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:33,396 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.33
+2024-04-14 13:48:33,397 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7778e+02, 1.0757e-01, 5.3628e+02, 3.7080e+01])
+2024-04-14 13:48:33,397 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,397 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,398 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:33,398 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.32
+2024-04-14 13:48:33,399 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.7376e-01, 8.4133e+01, 1.6244e+02, 3.3373e+02])
+2024-04-14 13:48:33,399 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:33,399 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,399 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,400 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 12.00%
+2024-04-14 13:48:33,651 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:33,652 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1909e+02, 2.1165e-01, 4.8850e+02, 5.9752e+01])
+2024-04-14 13:48:33,652 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,653 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,653 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:33,653 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.65
+2024-04-14 13:48:33,654 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 99.1297, 219.2945, 143.7025, 309.9358])
+2024-04-14 13:48:33,654 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,654 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,655 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 21.00%
+2024-04-14 13:48:33,655 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.59
+2024-04-14 13:48:33,656 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 42.6536, 234.8355, 300.6284, 479.6360])
+2024-04-14 13:48:33,656 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,656 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,657 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:33,657 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:33,658 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:33.jpg'
+2024-04-14 13:48:33,660 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:33,916 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:33,917 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1861e+02, 2.3175e-01, 4.8854e+02, 5.9874e+01])
+2024-04-14 13:48:33,917 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,917 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,918 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:33,918 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.65
+2024-04-14 13:48:33,918 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 88.2861, 230.1788, 137.9258, 313.7889])
+2024-04-14 13:48:33,919 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,919 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,920 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 20.00%
+2024-04-14 13:48:33,920 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.58
+2024-04-14 13:48:33,920 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.4586, 234.3226, 299.9658, 479.5958])
+2024-04-14 13:48:33,920 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,921 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:33,921 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:33,921 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:33,922 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:33.jpg'
+2024-04-14 13:48:33,925 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:34,201 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:34,201 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1857e+02, 2.2701e-01, 4.8855e+02, 5.9904e+01])
+2024-04-14 13:48:34,202 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,202 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,203 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:34,203 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.70
+2024-04-14 13:48:34,204 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 85.6462, 234.6302, 134.4198, 319.2414])
+2024-04-14 13:48:34,204 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,205 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,205 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 23.00%
+2024-04-14 13:48:34,206 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.65
+2024-04-14 13:48:34,206 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.8820, 234.3334, 299.9194, 479.6035])
+2024-04-14 13:48:34,207 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,207 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,208 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:34,208 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:34,209 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:34.jpg'
+2024-04-14 13:48:34,212 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:34,470 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:34,470 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1853e+02, 2.2552e-01, 4.8854e+02, 5.9868e+01])
+2024-04-14 13:48:34,471 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,471 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,472 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:34,472 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.73
+2024-04-14 13:48:34,473 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 81.1753, 242.9731, 129.6577, 333.1987])
+2024-04-14 13:48:34,473 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,473 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,474 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 32.00%
+2024-04-14 13:48:34,474 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:34,475 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:34.jpg'
+2024-04-14 13:48:34,475 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.73
+2024-04-14 13:48:34,476 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.4182, 235.0444, 300.1363, 479.6121])
+2024-04-14 13:48:34,476 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,477 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,477 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:34,477 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:34,478 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:34.jpg'
+2024-04-14 13:48:34,478 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:34,482 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:34,727 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:34,728 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1852e+02, 2.2626e-01, 4.8855e+02, 5.9868e+01])
+2024-04-14 13:48:34,728 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,728 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,729 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:34,729 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.72
+2024-04-14 13:48:34,730 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.2380, 235.1830, 300.0563, 479.6087])
+2024-04-14 13:48:34,730 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,730 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,731 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:34,731 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:34,732 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:34.jpg'
+2024-04-14 13:48:34,732 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.65
+2024-04-14 13:48:34,733 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 78.9136, 247.1329, 127.5757, 328.9469])
+2024-04-14 13:48:34,733 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,733 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,734 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 28.00%
+2024-04-14 13:48:34,734 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:34,734 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:34.jpg'
+2024-04-14 13:48:34,735 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:34,737 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:34,972 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:34,972 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1853e+02, 2.2715e-01, 4.8854e+02, 5.9897e+01])
+2024-04-14 13:48:34,973 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,973 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,974 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:34,974 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.66
+2024-04-14 13:48:34,975 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.5383, 235.2425, 300.0420, 479.5902])
+2024-04-14 13:48:34,975 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,976 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,976 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:34,976 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:34,977 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:34.jpg'
+2024-04-14 13:48:34,978 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.59
+2024-04-14 13:48:34,978 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 73.7178, 255.2044, 123.9915, 324.1893])
+2024-04-14 13:48:34,979 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,979 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,980 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 22.00%
+2024-04-14 13:48:34,980 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.37
+2024-04-14 13:48:34,980 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:34,980 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 42.6846, 234.9692, 299.7204, 479.6193])
+2024-04-14 13:48:34,981 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,981 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:34,981 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:34,981 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:34,982 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:35,236 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:35,237 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1852e+02, 2.2864e-01, 4.8856e+02, 5.9917e+01])
+2024-04-14 13:48:35,237 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,238 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,238 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:35,239 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.60
+2024-04-14 13:48:35,239 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.4124, 235.3513, 300.0201, 479.5746])
+2024-04-14 13:48:35,239 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,240 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,240 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:35,240 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:35,241 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:35.jpg'
+2024-04-14 13:48:35,242 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.45
+2024-04-14 13:48:35,242 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.9385, 235.1447, 299.7941, 479.6163])
+2024-04-14 13:48:35,243 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,243 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,244 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:35,244 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:35,244 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:35,244 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.42
+2024-04-14 13:48:35,244 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:35,245 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 70.0787, 259.5044, 121.4882, 330.0849])
+2024-04-14 13:48:35,245 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,245 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,246 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 26.00%
+2024-04-14 13:48:35,246 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:35,247 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:35.jpg'
+2024-04-14 13:48:35,250 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:35,475 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:35,475 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1852e+02, 2.2929e-01, 4.8857e+02, 5.9910e+01])
+2024-04-14 13:48:35,475 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,476 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,476 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:35,476 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.60
+2024-04-14 13:48:35,477 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 42.0753, 234.8922, 300.4724, 479.5961])
+2024-04-14 13:48:35,477 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,477 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,478 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:35,478 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:35,479 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:35.jpg'
+2024-04-14 13:48:35,479 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.40
+2024-04-14 13:48:35,480 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 41.1015, 235.4674, 299.5947, 479.4182])
+2024-04-14 13:48:35,480 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,480 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,481 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:35,481 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:35,481 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:35,481 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.35
+2024-04-14 13:48:35,481 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:35,482 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([  0.0000,  82.6765, 301.1773, 480.0000])
+2024-04-14 13:48:35,482 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,483 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,483 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 36.00%
+2024-04-14 13:48:35,483 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:35,483 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:35,483 - ObjectDetectionLogger - INFO - 'traffic light' detected in the frame with confidence: 0.27
+2024-04-14 13:48:35,484 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 65.3510, 263.6165, 115.9150, 336.0148])
+2024-04-14 13:48:35,484 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,484 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,485 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 28.00%
+2024-04-14 13:48:35,485 - ObjectDetectionLogger - INFO - 'traffic light' detected inside the region of interest
+2024-04-14 13:48:35,485 - ObjectDetectionLogger - INFO - Detected object class 'traffic light' in ROI, though not in classes to monitor
+2024-04-14 13:48:35,731 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:35,732 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1878e+02, 2.1516e-01, 4.8866e+02, 5.9829e+01])
+2024-04-14 13:48:35,733 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,733 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,734 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:35,734 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.50
+2024-04-14 13:48:35,734 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.8036, 235.1720, 299.7974, 479.6176])
+2024-04-14 13:48:35,735 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,735 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,736 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 70.00%
+2024-04-14 13:48:35,736 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:35,736 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:35,736 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.47
+2024-04-14 13:48:35,736 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([  0.0000,  82.3943, 299.6937, 479.7115])
+2024-04-14 13:48:35,737 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,737 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,738 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 36.00%
+2024-04-14 13:48:35,738 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:35,738 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:35,738 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.34
+2024-04-14 13:48:35,739 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.6783, 234.8597, 300.4497, 479.5781])
+2024-04-14 13:48:35,739 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,739 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,740 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:35,740 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:35,741 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:35.jpg'
+2024-04-14 13:48:35,741 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.26
+2024-04-14 13:48:35,742 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 61.1997, 264.6793, 115.6580, 345.1175])
+2024-04-14 13:48:35,742 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,742 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:35,743 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 35.00%
+2024-04-14 13:48:35,743 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:35,743 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:35.jpg'
+2024-04-14 13:48:35,744 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:35,746 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:37,740 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:37,741 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1881e+02, 2.1656e-01, 4.8879e+02, 5.9803e+01])
+2024-04-14 13:48:37,741 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,742 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,742 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:37,743 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.50
+2024-04-14 13:48:37,743 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 32.3899, 234.9639, 299.5621, 479.3681])
+2024-04-14 13:48:37,743 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,744 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,745 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:37,745 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:37,745 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:37,745 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.43
+2024-04-14 13:48:37,745 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 44.2592, 234.4107, 299.8159, 479.5657])
+2024-04-14 13:48:37,746 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,746 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,747 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:37,747 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:37,748 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:37.jpg'
+2024-04-14 13:48:37,748 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.41
+2024-04-14 13:48:37,749 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([9.5520e-02, 8.2454e+01, 3.0101e+02, 4.8000e+02])
+2024-04-14 13:48:37,749 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,750 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,750 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 36.00%
+2024-04-14 13:48:37,750 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:37,750 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:37,751 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.30
+2024-04-14 13:48:37,751 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([  0.3586,  83.6971, 164.3793, 347.2231])
+2024-04-14 13:48:37,751 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,752 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:37,752 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,753 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 15.00%
+2024-04-14 13:48:37,753 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.29
+2024-04-14 13:48:37,753 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7810e+02, 1.2114e-01, 5.3657e+02, 3.7040e+01])
+2024-04-14 13:48:37,754 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,754 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:37,755 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:38,288 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:38,289 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1884e+02, 2.0696e-01, 4.8864e+02, 5.9592e+01])
+2024-04-14 13:48:38,289 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,289 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,290 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:38,290 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.64
+2024-04-14 13:48:38,290 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 46.6884, 235.1998, 299.5729, 479.5577])
+2024-04-14 13:48:38,291 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,291 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,292 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:38,292 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:38,293 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:38.jpg'
+2024-04-14 13:48:38,293 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.32
+2024-04-14 13:48:38,293 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 42.1293, 234.9156, 299.5884, 479.6085])
+2024-04-14 13:48:38,294 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,294 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,294 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:38,295 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:38,295 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:38,295 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.30
+2024-04-14 13:48:38,295 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7687e+02, 1.2073e-01, 5.3555e+02, 3.6985e+01])
+2024-04-14 13:48:38,295 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:38,296 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,296 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,296 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:38,297 - ObjectDetectionLogger - INFO - 'traffic light' detected in the frame with confidence: 0.26
+2024-04-14 13:48:38,297 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 55.3932, 266.0331, 108.4869, 348.0056])
+2024-04-14 13:48:38,297 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,297 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,298 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 30.00%
+2024-04-14 13:48:38,298 - ObjectDetectionLogger - INFO - 'traffic light' detected inside the region of interest
+2024-04-14 13:48:38,298 - ObjectDetectionLogger - INFO - Detected object class 'traffic light' in ROI, though not in classes to monitor
+2024-04-14 13:48:38,549 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:38,550 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1885e+02, 2.0983e-01, 4.8864e+02, 5.9588e+01])
+2024-04-14 13:48:38,550 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,551 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,551 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:38,551 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.69
+2024-04-14 13:48:38,552 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 54.7864, 263.5603, 116.1661, 348.2795])
+2024-04-14 13:48:38,552 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,552 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,552 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 33.00%
+2024-04-14 13:48:38,553 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:38,553 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:38.jpg'
+2024-04-14 13:48:38,553 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.65
+2024-04-14 13:48:38,554 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 45.7911, 235.2172, 299.6614, 479.5703])
+2024-04-14 13:48:38,554 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,554 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,555 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:38,555 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:38,555 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:38,556 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:38.jpg'
+2024-04-14 13:48:38,556 - ObjectDetectionLogger - INFO - 'truck' detected in the frame with confidence: 0.29
+2024-04-14 13:48:38,557 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([2.8545e-01, 8.4265e+01, 1.6420e+02, 3.5260e+02])
+2024-04-14 13:48:38,557 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,558 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,558 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 16.00%
+2024-04-14 13:48:38,558 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.29
+2024-04-14 13:48:38,559 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7691e+02, 1.1954e-01, 5.3564e+02, 3.6976e+01])
+2024-04-14 13:48:38,559 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,559 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:38,560 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,560 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:38,833 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:38,834 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1883e+02, 2.0952e-01, 4.8864e+02, 5.9591e+01])
+2024-04-14 13:48:38,834 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,835 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,835 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:38,835 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.69
+2024-04-14 13:48:38,836 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 55.5642, 263.2348, 110.4290, 350.3202])
+2024-04-14 13:48:38,836 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,836 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,837 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 34.00%
+2024-04-14 13:48:38,837 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:38,838 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:38.jpg'
+2024-04-14 13:48:38,838 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.62
+2024-04-14 13:48:38,839 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 40.6035, 234.9469, 300.2834, 479.6104])
+2024-04-14 13:48:38,839 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,839 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,840 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:38,840 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:38,841 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:38,841 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:38.jpg'
+2024-04-14 13:48:38,841 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.30
+2024-04-14 13:48:38,842 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7686e+02, 1.1781e-01, 5.3567e+02, 3.6978e+01])
+2024-04-14 13:48:38,842 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,843 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:38,843 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:38,844 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:39,197 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:39,197 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1879e+02, 1.9096e-01, 4.8864e+02, 5.9597e+01])
+2024-04-14 13:48:39,198 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,198 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,198 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:39,199 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.59
+2024-04-14 13:48:39,199 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 32.5711, 234.9921, 300.2497, 479.5941])
+2024-04-14 13:48:39,199 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,200 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,200 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:39,200 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:39,201 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:39.jpg'
+2024-04-14 13:48:39,201 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.53
+2024-04-14 13:48:39,202 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 57.7064, 262.0798, 113.9328, 358.1507])
+2024-04-14 13:48:39,202 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,203 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,203 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 40.00%
+2024-04-14 13:48:39,203 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:39,204 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:39.jpg'
+2024-04-14 13:48:39,204 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:39,204 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.29
+2024-04-14 13:48:39,205 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7684e+02, 1.2268e-01, 5.3558e+02, 3.6970e+01])
+2024-04-14 13:48:39,205 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,205 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,206 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:39,207 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:39,471 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:39,471 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1875e+02, 1.8903e-01, 4.8863e+02, 5.9582e+01])
+2024-04-14 13:48:39,472 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,472 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,473 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:39,473 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.63
+2024-04-14 13:48:39,474 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 58.9560, 260.7308, 115.4659, 347.7228])
+2024-04-14 13:48:39,474 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,474 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,475 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 33.00%
+2024-04-14 13:48:39,475 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:39,476 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:39.jpg'
+2024-04-14 13:48:39,476 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.41
+2024-04-14 13:48:39,477 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 30.1926, 234.8934, 300.2321, 479.5727])
+2024-04-14 13:48:39,477 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,478 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,478 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:39,478 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:39,479 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:39,479 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:39.jpg'
+2024-04-14 13:48:39,480 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.30
+2024-04-14 13:48:39,480 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7683e+02, 1.2230e-01, 5.3561e+02, 3.6959e+01])
+2024-04-14 13:48:39,480 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,481 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,481 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:39,482 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.29
+2024-04-14 13:48:39,482 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:39,482 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 17.2674, 234.5160, 299.3232, 479.2777])
+2024-04-14 13:48:39,483 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,483 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:39,484 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 65.00%
+2024-04-14 13:48:39,484 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:39,484 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:40,691 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:40,691 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1875e+02, 1.8708e-01, 4.8864e+02, 5.9633e+01])
+2024-04-14 13:48:40,692 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:40,692 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:40,693 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:40,693 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.68
+2024-04-14 13:48:40,694 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 64.0235, 260.1576, 115.5669, 341.4950])
+2024-04-14 13:48:40,694 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:40,695 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:40,695 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 30.00%
+2024-04-14 13:48:40,695 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:40,708 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:40.jpg'
+2024-04-14 13:48:40,709 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.63
+2024-04-14 13:48:40,709 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 38.4480, 234.8670, 300.2079, 479.5924])
+2024-04-14 13:48:40,710 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:40,710 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:40,711 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:40,711 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:40,711 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:40.jpg'
+2024-04-14 13:48:40,712 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:40,712 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.30
+2024-04-14 13:48:40,712 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7685e+02, 1.2423e-01, 5.3555e+02, 3.6927e+01])
+2024-04-14 13:48:40,713 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:40,713 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:40,714 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:40,716 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:41,642 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.84
+2024-04-14 13:48:41,643 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1844e+02, 1.7726e-01, 4.8851e+02, 5.9727e+01])
+2024-04-14 13:48:41,644 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,644 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,645 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:41,645 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.71
+2024-04-14 13:48:41,645 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 64.8705, 260.8940, 115.3917, 333.9573])
+2024-04-14 13:48:41,646 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,646 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,647 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 24.00%
+2024-04-14 13:48:41,647 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.65
+2024-04-14 13:48:41,647 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 36.9396, 234.9222, 300.2104, 479.6020])
+2024-04-14 13:48:41,648 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,648 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,649 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:41,649 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:41,649 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:41.jpg'
+2024-04-14 13:48:41,650 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.26
+2024-04-14 13:48:41,650 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.7767e+02, 1.0064e-01, 5.3650e+02, 3.6901e+01])
+2024-04-14 13:48:41,650 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,651 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,651 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:41,652 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:41,904 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:41,905 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1845e+02, 1.7223e-01, 4.8852e+02, 5.9677e+01])
+2024-04-14 13:48:41,905 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,906 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,906 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:41,907 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.63
+2024-04-14 13:48:41,907 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 63.9104, 263.3366, 112.5552, 340.0710])
+2024-04-14 13:48:41,908 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,908 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,909 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 30.00%
+2024-04-14 13:48:41,909 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:41,909 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:41.jpg'
+2024-04-14 13:48:41,909 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.47
+2024-04-14 13:48:41,910 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 30.7136, 234.7838, 300.1619, 479.5871])
+2024-04-14 13:48:41,910 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,911 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,911 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:41,912 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:41,912 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:41,912 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:41.jpg'
+2024-04-14 13:48:41,913 - ObjectDetectionLogger - INFO - 'airplane' detected in the frame with confidence: 0.41
+2024-04-14 13:48:41,913 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.9164e-02, 8.2318e+01, 2.9922e+02, 4.7985e+02])
+2024-04-14 13:48:41,914 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,914 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:41,915 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 36.00%
+2024-04-14 13:48:41,915 - ObjectDetectionLogger - INFO - 'airplane' detected inside the region of interest
+2024-04-14 13:48:41,915 - ObjectDetectionLogger - INFO - Detected object class 'airplane' in ROI, though not in classes to monitor
+2024-04-14 13:48:41,916 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:42,151 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:42,151 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1867e+02, 1.9850e-01, 4.8862e+02, 5.9828e+01])
+2024-04-14 13:48:42,151 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,152 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,152 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:42,152 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.74
+2024-04-14 13:48:42,153 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 42.9638, 234.8124, 300.3586, 479.6097])
+2024-04-14 13:48:42,153 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,154 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,154 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 68.00%
+2024-04-14 13:48:42,154 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:42,155 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:42.jpg'
+2024-04-14 13:48:42,155 - ObjectDetectionLogger - INFO - 'person' detected in the frame with confidence: 0.37
+2024-04-14 13:48:42,156 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 61.3787, 266.6829, 111.8640, 342.6733])
+2024-04-14 13:48:42,156 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,157 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,157 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 30.00%
+2024-04-14 13:48:42,157 - ObjectDetectionLogger - INFO - 'person' detected inside the region of interest
+2024-04-14 13:48:42,158 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:42,158 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/person-2024-04-14-13:48:42.jpg'
+2024-04-14 13:48:42,159 - ObjectDetectionLogger - INFO - 'airplane' detected in the frame with confidence: 0.26
+2024-04-14 13:48:42,159 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([  0.0000,  82.2410, 299.5060, 480.0000])
+2024-04-14 13:48:42,160 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,161 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,161 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 36.00%
+2024-04-14 13:48:42,161 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:42,161 - ObjectDetectionLogger - INFO - 'airplane' detected inside the region of interest
+2024-04-14 13:48:42,162 - ObjectDetectionLogger - INFO - Detected object class 'airplane' in ROI, though not in classes to monitor
+2024-04-14 13:48:42,399 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:42,399 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1859e+02, 1.9402e-01, 4.8861e+02, 5.9807e+01])
+2024-04-14 13:48:42,400 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,400 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,400 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:42,401 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.65
+2024-04-14 13:48:42,401 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 41.8390, 235.1324, 300.3038, 479.5742])
+2024-04-14 13:48:42,401 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,401 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,402 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:42,402 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:42,403 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:42.jpg'
+2024-04-14 13:48:42,403 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.30
+2024-04-14 13:48:42,403 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([  0.0000,  82.3063, 301.1828, 480.0000])
+2024-04-14 13:48:42,404 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,404 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,405 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 36.00%
+2024-04-14 13:48:42,405 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:42,405 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:42,405 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:42,673 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.83
+2024-04-14 13:48:42,674 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([4.1850e+02, 1.8998e-01, 4.8861e+02, 5.9804e+01])
+2024-04-14 13:48:42,674 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,675 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,675 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 0.00%
+2024-04-14 13:48:42,675 - ObjectDetectionLogger - INFO - 'car' detected in the frame with confidence: 0.65
+2024-04-14 13:48:42,676 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([ 37.0001, 235.1965, 300.2902, 479.5346])
+2024-04-14 13:48:42,676 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,677 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,677 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 69.00%
+2024-04-14 13:48:42,677 - ObjectDetectionLogger - INFO - 'car' detected inside the region of interest
+2024-04-14 13:48:42,678 - ObjectDetectionLogger - INFO - Saving frame to: 'C:/Users/aido/Desktop/Github Repos/Sequre/data/output/2024-04-14/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59/car-2024-04-14-13:48:42.jpg'
+2024-04-14 13:48:42,678 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.30
+2024-04-14 13:48:42,679 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([6.7474e-02, 8.2370e+01, 3.0124e+02, 4.7954e+02])
+2024-04-14 13:48:42,679 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,680 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,681 - ObjectDetectionLogger - INFO - Frame saved successfully
+2024-04-14 13:48:42,681 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 36.00%
+2024-04-14 13:48:42,681 - ObjectDetectionLogger - INFO - 'motorcycle' detected inside the region of interest
+2024-04-14 13:48:42,681 - ObjectDetectionLogger - INFO - Detected object class 'motorcycle' in ROI, though not in classes to monitor
+2024-04-14 13:48:42,681 - ObjectDetectionLogger - INFO - 'motorcycle' detected in the frame with confidence: 0.25
+2024-04-14 13:48:42,682 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([3.0562e-01, 8.4136e+01, 1.6368e+02, 3.5188e+02])
+2024-04-14 13:48:42,682 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,683 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
+2024-04-14 13:48:42,683 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 16.00%

@@ -1,0 +1,4 @@
+2024-03-29 18:07:24,281 - ObjectDetectionLogger - INFO - Initialising the application
+2024-03-29 18:07:24,281 - ObjectDetectionLogger - INFO - Output directory: '/home/aiden/Desktop/Github Repos/Sequre/data/output/2024-03-29/7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59'
+2024-03-29 18:07:24,529 - ObjectDetectionLogger - INFO - Opening the video file..
+2024-03-29 18:07:24,539 - ObjectDetectionLogger - INFO - Region of interest points loaded successfully. Num points: 8
