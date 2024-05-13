@@ -50,24 +50,3 @@ To install and set up Sequre, follow these steps:
 
 3. **Set the ROI:**
     - On the first run, you will be prompted to set the region of interest by selecting points on the video frame.
-
-## Directory Structure
-```plaintext
-sequre/
-├── configs/
-│   └── config.json
-├── data/
-│   ├── input/
-│   └── output/
-├── models/
-│   └── yolov8.pt
-├── src/
-│   ├── data_handler.py
-│   ├── detector.py
-│   ├── main.py
-│   └── utils/
-│       ├── config_reader.py
-│       ├── file_utils.py
-│       ├── logger.py
-│       └── visualise.py
-└── README.md
