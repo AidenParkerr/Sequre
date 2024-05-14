@@ -1,20 +1,18 @@
 import hashlib
-import logging
-import threading
 from datetime import datetime
 from pathlib import Path
 
 import cv2
 import numpy as np
 
-from data.data_handler import DataHandler
-from utils.config_reader import ConfigReader
+from config.config_reader import ConfigReader
 from utils.file_utils import load_roi_points
 from utils.logger import setup_logging
 from utils.roi_initialiser import ROIInitialiser
-from utils.visualise import display, draw_grid, retrieve_cropped_box
+from utils.video_utils.video_handler import VideoHandler
+from utils.visualise import display, draw_grid
 from yolo.detector import YOLODetector
-import torch
+
 
 class Sequre:
   """
@@ -51,59 +49,26 @@ class Sequre:
   - Add support for multiple region of interest points.
   - Add support for multiple object classes to monitor. #* Done
   """
-  def __init__(self, config_path: str):
-    setup_logging()
-    self.logger = logging.getLogger('ObjectDetectionLogger')
-    self.logger.info("Initialising the application")
-    self.video_config: dict = ConfigReader(config_path).get('video_config')
-    self.model_path: str = ConfigReader(config_path).get('model_config')['model_path']
-    self.data_handler = DataHandler(self.video_config)
-    self.video_path_hash = self._generate_hash(str(self.data_handler.video_path))
+  def __init__(self, config_path: str = 'config/config.json'):
+    self.TIMESTAMP = datetime.now().strftime("%Y-%m-%d %H-%M-%S") # Get the current timestamp
     
-    FOLDER_TIMESTAMP = self._create_timestamp("%Y-%m-%d")
-    output_path = Path(
-        'data/output/').joinpath(FOLDER_TIMESTAMP, self.video_path_hash)
+    self.logger = setup_logging()
+    self.app_config = ConfigReader(config_path).config
+    self.video_handler = VideoHandler(self.app_config['video_config'])
+    
+    # Create a hash of the video path to uniquely identify the video file and output
+    video_path = str(self.video_handler.video_path).lower()
+    self.video_hash = hashlib.sha256(video_path.encode()).hexdigest()
+    self.output_dir = self._setup_output_directory()
+
+
+  def _setup_output_directory(self):
+    """ Setup the output directory for saving the frames. """
+    timestamp = self.TIMESTAMP.split(' ')[0] # Get the date part of the timestamp
+    output_path = Path('data/output/').joinpath(timestamp, self.video_hash)
     output_path.mkdir(parents=True, exist_ok=True)
-    self.output_dir = output_path.resolve()
-    self.logger.info(f"Output directory: '{self.output_dir}'")
+    return output_path.resolve()
 
-
-  def _generate_hash(self, url: str) -> str:
-    """
-    Generate a hash from the URL.
-    
-    This function generates a hash from the URL using the SHA256 algorithm.
-
-    Parameters
-    ----------
-    url : str
-      The URL to generate the hash from.
-        
-    Returns
-    -------
-    str
-      The hash generated from the URL.
-    """
-    
-    url_normal = url.lower()
-    hash_object = hashlib.sha256(url_normal.encode())
-    return hash_object.hexdigest()
-    
-
-
-  def _create_timestamp(self, format="%Y-%m-%d"):
-    """
-    Create a timestamp for the output directory.
-
-    This function creates a timestamp for the output
-    directory using the current date and time.
-
-    Returns
-    -------
-    str
-        The timestamp for the output directory.
-    """
-    return datetime.now().strftime(format)
 
   def handle_object_in_roi(self, frame, object_class,
                            classes_to_monitor=['person', 'car']):
@@ -120,28 +85,22 @@ class Sequre:
     box_class : str
         The class of the object.
     """
+    self.logger.info(
+        f"'{object_class}' detected inside the region of interest")
+    # Spin new thread for saving the frame
+    # threading.Thread(target=self.handle_object_in_roi).start()
     if object_class not in classes_to_monitor:
-      self.logger.info(
-          f"Detected object class '{object_class}' in ROI, though not in classes to monitor")
-      return
-
-    def save_frame():
-      """
-      Save the frame to the output directory.
-      """
-      timestamp = self._create_timestamp("%Y-%m-%d-%H-%M-%S")
-      save_path = str((
-          self.output_dir /
-          f"{object_class}-{timestamp}.jpg").resolve())
-      self.logger.info(f"Saving frame to: '{save_path}'")
-      cv2.imwrite(save_path, frame)
-      self.logger.info("Frame saved successfully")
-
-    # Handle the saving of the frame in a separate thread
-    threading.Thread(target=save_frame).start()
+      self.logger.info(f"Object class '{object_class}' not in classes to monitor")
+      return 
+    
+    timestamp = datetime.now().strftime("%H-%M-%S")
+    image_name = f"{object_class}-{timestamp}.jpg"
+    save_path = self.output_dir / image_name
+    cv2.imwrite(str(save_path.resolve()), frame)
+    self.logger.info(f"Frame with object '{object_class}' saved to '{save_path}'")
 
   def compute_grid_coords(self, left: int, top: int, right: int,
-                          bottom: int) -> tuple[np.ndarray, np.ndarray]:
+                          bottom: int, h_num: int=10, v_num: int=10) -> tuple[np.ndarray, np.ndarray]:
     """
     Compute the grid coordinates inside the bounding box.
 
@@ -152,7 +111,7 @@ class Sequre:
 
     Parameters
     ----------
-    left : intFalse
+    left : int
       The left coordinate of the bounding box.
     top : int
       The top coordinate of the bounding box.
@@ -160,6 +119,10 @@ class Sequre:
       The right coordinate of the bounding box.
     bottom : int
       The bottom coordinate of the bounding box.
+    h_num : int
+      The number of horizontal points in the grid. Defaults to 10.
+    v_num : int
+      The number of vertical points in the grid. Defaults to 10.
 
     Returns
     -------
@@ -168,13 +131,13 @@ class Sequre:
     """
     grid_x, grid_y = np.meshgrid(
         np.linspace(
-            left, right, num=10), np.linspace(
-            top, bottom, num=10))
+            left, right, num=h_num), np.linspace(
+            top, bottom, num=v_num))
     self.logger.info(f"Grid coordinates of bounding box computed successfully")
     return grid_x, grid_y
 
   def is_object_in_roi(self, box_coords: np.ndarray, roi_points: np.ndarray,
-                       percentage_threshold: float = 0.1):
+                       percentage_threshold: float = 0.25):
     """
     Check if the object is inside the region of interest.
 
@@ -185,13 +148,14 @@ class Sequre:
     `grid_x` and `grid_y` are the grid points inside the bounding box.
     grid_points is a transpose of the grid points, this is done to change the shape of
     the array from (2, 100) to (100, 2). This allows us to iterate over each point in the grid.
-stairwell
+    
+    
     Parameters
     ----------
         box_coords (list): The bounding box coordinates of the object.
         roi_points (list): The region of interest pooffice_robbersints.
         percentage_threshold (float, optional): The threshold for the percentage of points inside the polygon.
-        Defaults to 0.10 (10%).
+        Defaults to 0.25 (25%).
 
     Returns
     -------
@@ -207,9 +171,11 @@ stairwell
 
     # Create a grid of points inside the bounding box with 10x10 points.
     grid_x, grid_y = self.compute_grid_coords(left, top, right, bottom)
+    
+    # Transpose the grid points to change the shape of the array from (2, 100) to (100, 2).
     grid_points = np.vstack((grid_x.flatten(), grid_y.flatten())).T
 
-    # Check each point in the grid.
+    # Check each point in the grid. #? Could be optimized
     inside_points = sum([cv2.pointPolygonTest(
         np.array(roi_points), tuple(point), False) >= 0 for point in grid_points])
 
@@ -220,7 +186,7 @@ stairwell
         f"Percentage of points inside the ROI: {inside_percentage * 100:.2f}%")
     return inside_percentage >= percentage_threshold
 
-  def init_roi(self, capture: cv2.VideoCapture, roi_points: np.ndarray) -> np.ndarray:
+  def init_roi(self, roi_points: np.ndarray) -> np.ndarray:
     """
     Initialise the region of interest.
 
@@ -238,9 +204,10 @@ stairwell
       The region of interest points.
     """
     roi_initialiser = ROIInitialiser(
-        video_name=self.video_path_hash,
+        video_name=self.video_hash,
         roi_points=roi_points)
 
+    capture = self.video_handler.get_capture()
     success, frame = capture.read()
     if not success:
       self.logger.error("Error reading the video file")
@@ -248,77 +215,68 @@ stairwell
       cv2.destroyAllWindows()
       return np.array([])
 
-    frame = self.data_handler.process_frame(frame)
+    frame = self.video_handler.process_frame(frame)
     self.logger.info("Setting region of interest points..")
-    roi_points = roi_initialiser.set_roi(frame)
+    roi_points = roi_initialiser.get_roi(frame)
     self.logger.info(f"Region of interest points set successfully")
     return roi_points
 
+  
+  def get_roi_points(self) -> np.ndarray:
+    """ Get the region of interest points from the file. If the file is not available, 
+        prompt user to initialise the ROI points."""
+    file_name = f"{self.video_hash}_roi_points.npy"
+    roi_points_path = Path(self.app_config['video_config']['roi_points_dir']) / file_name
+    roi_points = load_roi_points(str(roi_points_path)) # Load the ROI points from the file
+    return roi_points 
+
+  def _debug(self, frame: np.ndarray, box_coords: np.ndarray, roi_points: np.ndarray) -> np.ndarray:
+    # Draw the region of interest on the frame and display the frame with
+    # bounding boxes
+    cv2.polylines(frame, [roi_points], isClosed=True, color=(0, 255, 0), thickness=2)
+    self.logger.info(f"Bounding box coordinates: {box_coords}")
+    grid_coords = self.compute_grid_coords(*box_coords)
+    draw_grid(frame, *grid_coords, box_coords)
+    return frame
+    
+    
   # Main entry point of the application
   def main(self, debug=False):
-    # Open the video file and return the capture object
-    detector = YOLODetector(self.model_path)
-    print(torch.cuda.is_available())
-    self.logger.info("Opening the video file..")
-    capture = self.data_handler.get_capture()
-    model_classes = detector.model.names
-    roi_points_path = str(Path(self.video_config['roi_points_dir']).joinpath(
-        f"{self.video_path_hash}_roi_points.npy"))
-    roi_points = load_roi_points(roi_points_path)
-    
-    if not len(roi_points) > 0:
-      roi_points = self.init_roi(capture, roi_points)
-
+    detector = YOLODetector(self.app_config['model_config'])
+    capture = self.video_handler.get_capture()
+    roi_points = self.get_roi_points() 
+    if roi_points.size == 0:
+      roi_points = self.init_roi(roi_points)
     while capture.isOpened():
-      success, frame = capture.read()  # Read the frame from the video
-      if not success:
-        self.logger.error("Error reading the video file")
-        break
+      _, frame = capture.read()
+      assert frame is not None, "Frame is None"
 
-      frame = self.data_handler.process_frame(frame)  # Process the frame
-      print(self.data_handler.get_capture_fps(capture))
-      results = detector.predict(frame)  # Detect objects
-      if debug:
-        # Draw the region of interest on the frame and display the frame with
-        # bounding boxes
-        frame = results[0].plot()
-        cv2.polylines(
-            frame, [
-                roi_points], isClosed=True, color=(
-                0, 255, 0), thickness=2)
+      orig_frame = self.video_handler.process_frame(frame)
+      results = detector.predict(orig_frame)            
+      
+      for box in results[0].boxes: # Iterate over the detected objects
+        box_class = detector.model.names[int(box.cls)]
+        # Coordinates in the format (left, top, right, bottom)
+        box_coords = box.xyxy.cpu().squeeze()
         
-      # Loop through the detected objects and check if they are inside the region of interest
-      for box in results[0].boxes:
-        box_class = model_classes[int(box.cls)]  # Get the class of the object
-        box_conf = box.conf.cpu().item()
-        self.logger.info(
-            f"'{box_class}' detected in the frame with confidence: {box_conf:.2f}")
-        # Get the bounding box coordinates in the format (left, top, right, bottom)
-        box_coords = box.xyxy.cpu().squeeze()  
-        if debug:
-          self.logger.info(f"Bounding box coordinates: {box_coords}")
-          grid_coords = self.compute_grid_coords(*box_coords)
-          draw_grid(frame, *grid_coords, box_coords)
-        # cropped_frame = retrieve_cropped_box(frame, box_coords, box_class, desired_class='person')
-        if self.is_object_in_roi(box_coords, roi_points) and len(
-                roi_points) > 0:
-          self.logger.info(
-              f"'{box_class}' detected inside the region of interest")
-          self.handle_object_in_roi(frame,
-                                    object_class=box_class,
-                                    classes_to_monitor=[
-                                        'person',
-                                        'car'])
+        if debug: # Display the frame with bounding boxes and region of interest
+          frame = frame.copy()
+          frame = self._debug(orig_frame, box_coords, roi_points)
 
-      if not display(frame, delay=1):
+        if self.is_object_in_roi(box_coords, roi_points):
+          self.handle_object_in_roi(orig_frame, object_class=box_class)
+
+      if not display(orig_frame, delay=1):
         self.logger.info("Exiting the video processing..")
         break
-
+      
     capture.release()
     cv2.destroyAllWindows()
     self.logger.info("Video processing completed")
 
 
+
+
 if __name__ == '__main__':
-  sequre = Sequre('configs/config.json')
+  sequre = Sequre()
   sequre.main()

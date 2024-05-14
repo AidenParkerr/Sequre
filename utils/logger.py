@@ -22,3 +22,5 @@ def setup_logging():
     file_handler.setFormatter(log_format)
     
     logger.addHandler(file_handler)
+    
+  return logger

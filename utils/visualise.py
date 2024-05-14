@@ -3,7 +3,7 @@ import numpy as np
 
 
 def display(frame: np.ndarray, window_name: str = 'frame',
-            delay: int = 10) -> bool:
+            delay: int = 0) -> bool:
   """
   Display the frame in a window.
 
@@ -17,8 +17,8 @@ def display(frame: np.ndarray, window_name: str = 'frame',
     The frame to display.
   window_name : str, optional
     The name of the window, by default 'frame'.
-  ms_wait : int, optional
-    The number of milliseconds to wait for a key press, by default 10.
+  delay : int, optional
+    The number of milliseconds to wait for a key press, by default 0.
 
   Returns
   -------

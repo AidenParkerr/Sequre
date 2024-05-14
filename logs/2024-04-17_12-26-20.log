@@ -1,6 +1,0 @@
-2024-04-17 12:26:20,108 - ObjectDetectionLogger - INFO - Initialising the application
-2024-04-17 12:26:20,109 - ObjectDetectionLogger - INFO - Output directory: 'C:\Users\aido\Desktop\Github Repos\Sequre\data\output\2024-04-17\7f7ff8144630be978f4da38238b5876800e3bcee3f78063edc231a70861cfb59'
-2024-04-17 12:26:20,334 - ObjectDetectionLogger - INFO - Opening the video file..
-2024-04-17 12:26:20,345 - ObjectDetectionLogger - INFO - Region of interest points loaded successfully. Num points: 8
-2024-04-17 12:26:34,877 - ObjectDetectionLogger - INFO - Exiting the video processing..
-2024-04-17 12:26:34,890 - ObjectDetectionLogger - INFO - Video processing completed

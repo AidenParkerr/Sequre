@@ -92,7 +92,17 @@ class ROIInitialiser:
     load_path : str
       The path to load the ROI points from.
     """
-    return np.load(load_path)
+    try:
+      return np.load(load_path)
+    except OSError as e:
+      print(f"Input file does not exist or cannot be read: {e}")
+      return np.array([])
+    except EOFError as e:
+      print(f"Calling np.load multiple times on the same file handle: {e}")
+      return np.array([])
+    except Exception as e:
+      print(f"Error loading the region of interest points: {e}")
+      return np.array([])
 
   def handle_mouse_events(self, event, x, y, flags, param) -> None:
     """
@@ -169,7 +179,7 @@ class ROIInitialiser:
               window_name, cv2.WND_PROP_VISIBLE) < 1:
         break
 
-  def set_roi(self, frame: np.ndarray,
+  def get_roi(self, frame: np.ndarray,
               window_name: str = 'Define Region of Interest') -> np.ndarray:
     """
     Set the region of interest in a frame.
