@@ -59,11 +59,11 @@ def draw_grid(frame: np.ndarray, grid_x: np.ndarray, grid_y: np.ndarray,
     cv2.line(
         frame, (int(
             grid_x[0][i]), top), (int(
-                grid_x[0][i]), bottom), (0, 0, 255), 2)
+                grid_x[0][i]), bottom), (0, 0, 255), 1)
     cv2.line(
         frame, (left, int(
             grid_y[i][0])), (right, int(
-                grid_y[i][0])), (0, 0, 255), 2)
+                grid_y[i][0])), (0, 0, 255), 1)
 
 
 def retrieve_cropped_box(frame: np.ndarray, box_coords: np.ndarray, box_class: str,

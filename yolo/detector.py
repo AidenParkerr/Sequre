@@ -4,7 +4,7 @@ import logging
 
 class YOLODetector:
   def __init__(self, model_config) -> None:
-    self.logger = logging.getLogger(__name__)
+    self.logger = logging.getLogger('ObjectDetectionLogger')
     self.model_config = model_config
     self.model = self._init_model(self.model_config)
 

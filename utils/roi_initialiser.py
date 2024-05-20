@@ -105,48 +105,48 @@ class ROIInitialiser:
       return np.array([])
 
   def handle_mouse_events(self, event, x, y, flags, param) -> None:
-    """
-    Handle mouse events for selecting ROI points in a frame.
+      """
+      Handle mouse events for selecting ROI points in a frame.
 
-    Parameters
-    ----------
-    event : int
-      The type of mouse event.
-    x : int
-      The x-coordinate of the mouse event.
-    y : int
-      The y-coordinate of the mouse event.
-    flags : int
-      The flags for the mouse event.
-    param : dict
-      A dictionary containing the ROI points and the current point.
-    """
-    if self.done:
-      return
+      Parameters
+      ----------
+      event : int
+          The type of mouse event.
+      x : int
+          The x-coordinate of the mouse event.
+      y : int
+          The y-coordinate of the mouse event.
+      flags : int
+          The flags for the mouse event.
+      param : dict
+          A dictionary containing the ROI points and the current point.
+      """
+      if self.done:
+          return
 
-    if event == cv2.EVENT_MOUSEMOVE:
-      # On mouse move, update the current point      
-      self.current = (x, y)
-    elif event == cv2.EVENT_LBUTTONDOWN:
-      # On left mouse button click, add the point to the ROI points
-      self.temp_points.append((x, y))
-    elif event == cv2.EVENT_MBUTTONDOWN:
-      # On middle mouse button click, finish selecting the ROI points if > 3
-      # points
-      if len(self.temp_points) > 3:
-        self.done = True
-        self.roi_points = np.array(self.temp_points, dtype=np.int32)
-        # Save the ROI points to a file
-        save_path = f'data/output/roi_points/{self.video_name}_roi_points.npy'
-        self._save_roi_points(save_path)
-    elif event == cv2.EVENT_RBUTTONDOWN:
-      # On right mouse button click, clear the ROI points
-      self.temp_points = []
+      if event == cv2.EVENT_MOUSEMOVE:
+          # On mouse move, update the current point
+          self.current = (x, y)
+      elif event == cv2.EVENT_LBUTTONDOWN:
+          if flags & cv2.EVENT_FLAG_SHIFTKEY:
+              # On Shift + left mouse button click, finish selecting the ROI points if > 3 points
+              if len(self.temp_points) > 3:
+                  self.done = True
+                  self.roi_points = np.array(self.temp_points, dtype=np.int32)
+                  # Save the ROI points to a file
+                  save_path = f'data/output/roi_points/{self.video_name}_roi_points.npy'
+                  self._save_roi_points(save_path)
+          else:
+              # On left mouse button click, add the point to the ROI points
+              self.temp_points.append((x, y))
+      elif event == cv2.EVENT_RBUTTONDOWN:
+          # On right mouse button click, clear the ROI points
+          self.temp_points = []
 
-    if not self.done:
-      # update the param with current list of points
-      param['roi_points'] = self.temp_points
-      param['current_point'] = self.current
+      if not self.done:
+          # update the param with current list of points
+          param['roi_points'] = self.temp_points
+          param['current_point'] = self.current
 
   def _handle_roi_setup(self, frame, window_name, params) -> None:
     """
