@@ -8,7 +8,7 @@ import numpy as np
 from config.config_reader import ConfigReader
 from utils.file_utils import load_roi_points
 from utils.logger import setup_logging
-from utils.roi_initialiser import ROIInitialiser
+from utils.roi_initialiser import ROISelector
 from utils.video_utils.video_handler import VideoHandler
 from utils.visualise import display, draw_grid
 from yolo.detector import YOLODetector
@@ -58,10 +58,13 @@ class Sequre:
     
     # Create a hash of the video path to uniquely identify the video file and output
     video_path = str(self.video_handler.video_path).lower()
-    self.video_hash = hashlib.sha256(video_path.encode()).hexdigest()
+    self.video_hash = self._create_video_hash(video_path)
     self.output_dir = self._setup_output_directory()
 
-
+  def _create_video_hash(self, video_path: str) -> str:
+    """ Create a unique identifier for the video file using the hash of the video path."""
+    return hashlib.sha256(video_path.encode()).hexdigest()
+  
   def _setup_output_directory(self):
     """ Setup the output directory for saving the frames. """
     timestamp = self.TIMESTAMP.split(' ')[0] # Get the date part of the timestamp
@@ -144,7 +147,7 @@ class Sequre:
     Parameters
     ----------
         box_coords (list): The bounding box coordinates of the object.
-        roi_points (list): The region of interest pooffice_robbersints.
+        roi_points (list): The region of interest points.
         percentage_threshold (float, optional): The threshold for the percentage of points inside the polygon.
         Defaults to 0.25 (25%).
 
@@ -173,11 +176,11 @@ class Sequre:
         f"Percentage of points inside the ROI: {inside_percentage * 100:.2f}%")
     return inside_percentage >= percentage_threshold
 
-  def init_roi(self, roi_points: np.ndarray) -> np.ndarray:
+  def init_roi(self, capture: cv2.VideoCapture) -> np.ndarray:
     """
     Initialise the region of interest.
 
-    This function initialises the region of interest by setting the ROI points using the ROIInitialiser
+    This function initialises the region of interest by setting the ROI points using the ROISelector
     class. The ROI points are set by selecting the points on the frame using the mouse.
 
     Parameters
@@ -190,20 +193,16 @@ class Sequre:
     np.ndarray
       The region of interest points.
     """
-    roi_initialiser = ROIInitialiser(
-        video_name=self.video_hash,
-        roi_points=roi_points)
-    capture = self.video_handler.get_capture()
+    roi_initialiser = ROISelector(self.video_hash)
     success, frame = capture.read()
     if not success:
-      self.logger.error("Error reading the video file")
       capture.release()
       cv2.destroyAllWindows()
       return np.array([])
 
     frame = self.video_handler.process_frame(frame)
     self.logger.info("Setting region of interest points..")
-    roi_points = roi_initialiser.get_roi(frame)
+    roi_points = roi_initialiser.select_roi(frame)
     self.logger.info(f"Region of interest points set successfully")
     return roi_points
 
@@ -244,6 +243,7 @@ class Sequre:
     for box in results[0].boxes: # Iterate over the detected objects
       box_class = detector.model.names[int(box.cls)]
       if box_class not in classes_to_monitor:
+        # Skip the object if it is not in the classes to monitor
         continue
       
       confidence = box.conf.cpu().item()
@@ -265,7 +265,8 @@ class Sequre:
     # Get the region of interest points, if not available, initialise the ROI points
     roi_points = self.get_roi_points() 
     if roi_points.size == 0:
-      roi_points = self.init_roi(roi_points)
+      self.logger.info("Region of interest points not available. Initialising ROI points..")
+      roi_points = self.init_roi(capture)
       
     while capture.isOpened():
       # Read the frame from the video file
@@ -277,7 +278,7 @@ class Sequre:
       # Process the frame and get the predictions from the detector
       processed_frame = self.process_frame(frame, roi_points, detector, debug)
 
-      if not display(processed_frame, delay=1):
+      if not display(processed_frame, delay=20):
         # Exit the video processing if the user presses 'q' or closes the window
         self.logger.info("Exiting the video processing..")
         break

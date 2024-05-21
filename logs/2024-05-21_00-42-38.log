@@ -1,9 +1,0 @@
-2024-05-21 00:42:38,824 - ObjectDetectionLogger - INFO - Model path: models/yolov8s.pt
-2024-05-21 00:42:40,627 - ObjectDetectionLogger - INFO - Model loaded. Cuda available: True
-2024-05-21 00:42:40,646 - ObjectDetectionLogger - WARNING - Input file does not exist or cannot be read: [Errno 2] No such file or directory: 'data\\output\\roi_points\\a67150d5fe6a976c8da7a3e114935402d28aff49c5c8ffb0b6533a4f24ad5f92_roi_points.npy'
-2024-05-21 00:42:40,665 - ObjectDetectionLogger - INFO - Setting region of interest points..
-2024-05-21 00:42:54,239 - ObjectDetectionLogger - INFO - Region of interest points set successfully
-2024-05-21 00:42:58,315 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([338.9977, 208.3278, 363.9655, 254.0669])
-2024-05-21 00:42:58,316 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
-2024-05-21 00:42:58,316 - ObjectDetectionLogger - INFO - Grid coordinates of bounding box computed successfully
-2024-05-21 00:42:58,316 - ObjectDetectionLogger - INFO - Percentage of points inside the ROI: 26.00%

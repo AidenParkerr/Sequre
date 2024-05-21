@@ -1,4 +1,0 @@
-2024-05-21 00:22:23,265 - ObjectDetectionLogger - INFO - Model path: models/yolov8s.pt
-2024-05-21 00:22:25,007 - ObjectDetectionLogger - INFO - Model loaded. Cuda available: True
-2024-05-21 00:22:25,071 - ObjectDetectionLogger - INFO - Region of interest points loaded successfully. Num points: 5
-2024-05-21 00:22:28,530 - ObjectDetectionLogger - INFO - Bounding box coordinates: tensor([1.3406e+02, 6.6025e-02, 4.3368e+02, 1.7435e+02])

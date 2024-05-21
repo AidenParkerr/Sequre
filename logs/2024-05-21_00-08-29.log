@@ -1,3 +1,0 @@
-2024-05-21 00:08:29,647 - ObjectDetectionLogger - INFO - Model path: models/yolov8s.pt
-2024-05-21 00:08:32,577 - ObjectDetectionLogger - INFO - Model loaded. Cuda available: True
-2024-05-21 00:08:32,700 - ObjectDetectionLogger - INFO - Region of interest points loaded successfully. Num points: 5
