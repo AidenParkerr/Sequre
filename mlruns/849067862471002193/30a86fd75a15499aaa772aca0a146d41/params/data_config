@@ -1,0 +1,1 @@
+{'data_path': 'data/raw/dataset', 'train': 'data/train.txt', 'valid': 'data/valid.txt', 'names': 'data/names.txt', 'classes_to_monitor': ['person', 'car', 'motorbike', 'bicycle', 'truck']}

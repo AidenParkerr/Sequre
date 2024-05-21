@@ -3,6 +3,7 @@ from datetime import datetime
 from pathlib import Path
 
 import cv2
+import mlflow
 import numpy as np
 
 from config.config_reader import ConfigReader
@@ -60,6 +61,21 @@ class Sequre:
     video_path = str(self.video_handler.video_path).lower()
     self.video_hash = self._create_video_hash(video_path)
     self.output_dir = self._setup_output_directory()
+    
+    self._init_mlflow()
+    
+  def _init_mlflow(self):
+    """Initialize MLflow and log the configuration settings."""
+    mlflow.set_experiment("Sequre-Object-Detection")
+    mlflow.start_run(run_name=self.TIMESTAMP)
+
+    # Log configuration settings
+    for key, value in self.app_config.items():
+      if isinstance(value, dict):
+        for k, v in value.items():
+          mlflow.log_param(f"{key}_{k}", v)
+      else:
+        mlflow.log_param(key, value)
 
   def _create_video_hash(self, video_path: str) -> str:
     """ Create a unique identifier for the video file using the hash of the video path."""
@@ -92,6 +108,7 @@ class Sequre:
     save_path = self.output_dir / image_name
     cv2.imwrite(str(save_path.resolve()), frame)
     self.logger.info(f"Frame with object '{object_class}' saved to '{save_path}'")
+    mlflow.log_artifact(str(save_path.resolve())) # Log the frame to MLflow
 
   def compute_grid_coords(self, left: int, top: int, right: int,
                           bottom: int, h_num: int=10, v_num: int=10) -> tuple[np.ndarray, np.ndarray]:
@@ -204,6 +221,9 @@ class Sequre:
     self.logger.info("Setting region of interest points..")
     roi_points = roi_initialiser.select_roi(frame)
     self.logger.info(f"Region of interest points set successfully")
+    
+    # Log the roi points to mlflow
+    mlflow.log_param("ROI Points", roi_points.tolist())    
     return roi_points
 
   
@@ -225,7 +245,7 @@ class Sequre:
     cv2.rectangle(frame, (left, top - label_size[1]), (left + label_size[0], top), (255, 255, 0), cv2.FILLED)
     cv2.putText(frame, label, (left, top - label_size[1]), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
-  def _debug(self, frame: np.ndarray, box_coords: np.ndarray, roi_points: np.ndarray, box_class, confidence) -> np.ndarray:
+  def _debug(self, frame: np.ndarray, box_coords: np.ndarray, roi_points: np.ndarray, box_class:str, confidence:float) -> np.ndarray:
     # Draw the region of interest on the frame and display the frame with
     # bounding boxes 
     cv2.polylines(frame, [roi_points], isClosed=True, color=(0, 255, 0), thickness=2)
@@ -241,14 +261,14 @@ class Sequre:
     classes_to_monitor = self.app_config['data_config']['classes_to_monitor']    
     
     for box in results[0].boxes: # Iterate over the detected objects
-      box_class = detector.model.names[int(box.cls)]
+      box_class:str = detector.model.names[int(box.cls)]
       if box_class not in classes_to_monitor:
         # Skip the object if it is not in the classes to monitor
         continue
       
       confidence = box.conf.cpu().item()
       box_coords = box.xyxy.cpu().squeeze() # Format (left, top, right, bottom)
-      
+              
       if debug: 
         frame = self._debug(processed_frame, box_coords, roi_points, box_class, confidence)
 
@@ -286,6 +306,7 @@ class Sequre:
     capture.release()
     cv2.destroyAllWindows()
     self.logger.info("Video processing completed")
+    mlflow.end_run()
 
 
 

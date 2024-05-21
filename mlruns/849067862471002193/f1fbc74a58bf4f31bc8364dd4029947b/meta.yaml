@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/aiden/Desktop/GitHub/Sequre/mlruns/849067862471002193/f1fbc74a58bf4f31bc8364dd4029947b/artifacts
+end_time: 1716305096218
+entry_point_name: ''
+experiment_id: '849067862471002193'
+lifecycle_stage: active
+run_id: f1fbc74a58bf4f31bc8364dd4029947b
+run_name: 2024-05-21 16-24-41
+run_uuid: f1fbc74a58bf4f31bc8364dd4029947b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716305081863
+status: 3
+tags: []
+user_id: aiden
